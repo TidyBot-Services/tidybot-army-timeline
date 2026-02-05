@@ -5,8 +5,18 @@ on:
   # Run every hour
   schedule:
     - cron: '0 * * * *'
-  # Allow manual trigger
+  # Allow manual trigger with options
   workflow_dispatch:
+    inputs:
+      commits_per_repo:
+        description: 'Number of commits to fetch per repo'
+        required: false
+        default: '5'
+      skip_time_filter:
+        description: 'Fetch recent commits regardless of time'
+        required: false
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -22,11 +32,17 @@ jobs:
         uses: actions/github-script@v7
         env:
           ORG_NAME: ${{ github.repository_owner }}
+          COMMITS_PER_REPO: ${{ github.event.inputs.commits_per_repo || '5' }}
+          SKIP_TIME_FILTER: ${{ github.event.inputs.skip_time_filter || 'false' }}
         with:
           github-token: ${{ secrets.PAT_TOKEN }}
           script: |
             const fs = require('fs');
             const org = process.env.ORG_NAME;
+            const commitsPerRepo = parseInt(process.env.COMMITS_PER_REPO) || 5;
+            const skipTimeFilter = process.env.SKIP_TIME_FILTER === 'true';
+
+            console.log(`Fetching ${commitsPerRepo} commits per repo, skip time filter: ${skipTimeFilter}`);
 
             // Read existing entries
             let entries = [];
@@ -49,17 +65,19 @@ jobs:
 
             console.log(`Found ${repos.length} repos in ${org}`);
 
-            // Fetch recent commits from each repo (last 24 hours)
-            const since = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
+            // Fetch recent commits from each repo
+            const since = skipTimeFilter ? undefined : new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
 
             for (const repo of repos) {
               try {
-                const commits = await github.rest.repos.listCommits({
+                const params = {
                   owner: org,
                   repo: repo.name,
-                  since: since,
-                  per_page: 10
-                });
+                  per_page: commitsPerRepo
+                };
+                if (since) params.since = since;
+
+                const commits = await github.rest.repos.listCommits(params);
 
                 for (const commit of commits.data) {
                   const date = new Date(commit.commit.author.date);
