@@ -10,6 +10,10 @@ on:
   # Run when called by other workflows (from other repos)
   repository_dispatch:
     types: [update-timeline]
+  # Run after fetch-commits completes
+  workflow_run:
+    workflows: ["Fetch Org Commits"]
+    types: [completed]
 
 permissions:
   contents: read
