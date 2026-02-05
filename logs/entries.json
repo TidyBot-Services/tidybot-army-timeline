@@ -1,5 +1,53 @@
 [
   {
+    "timestamp": "2026-02-03 16:59",
+    "type": "feature",
+    "title": "first commit with robotiq",
+    "description": "Commit by tonylitianyu in gripper_server",
+    "files": [
+      "gripper_server/"
+    ],
+    "sha": "1f98910",
+    "repo": "gripper_server",
+    "author": "tonylitianyu"
+  },
+  {
+    "timestamp": "2026-02-04 19:33",
+    "type": "feature",
+    "title": "moved the gripper to gripper server",
+    "description": "Commit by Tidybot in franka_interact",
+    "files": [
+      "franka_interact/"
+    ],
+    "sha": "fe03643",
+    "repo": "franka_interact",
+    "author": "Tidybot"
+  },
+  {
+    "timestamp": "2026-02-05 05:39",
+    "type": "feature",
+    "title": "Add auto-hold feature for active position holding",
+    "description": "Commit by Tidybot in franka_interact",
+    "files": [
+      "franka_interact/"
+    ],
+    "sha": "46bf3a2",
+    "repo": "franka_interact",
+    "author": "Tidybot"
+  },
+  {
+    "timestamp": "2026-02-05 05:41",
+    "type": "feature",
+    "title": "Add .gitignore and improve log visibility",
+    "description": "Commit by Tidybot in gripper_server",
+    "files": [
+      "gripper_server/"
+    ],
+    "sha": "1e4a362",
+    "repo": "gripper_server",
+    "author": "Tidybot"
+  },
+  {
     "timestamp": "2026-02-05 05:44",
     "type": "test",
     "title": "Remove old trajectory.py, add test and utility files",
@@ -33,6 +81,18 @@
     ],
     "sha": "e5f58b0",
     "repo": "tidybot-agent-server",
+    "author": "Tidybot"
+  },
+  {
+    "timestamp": "2026-02-05 19:16",
+    "type": "fix",
+    "title": "Fix auto-hold to set control mode to JOINT_POSITION",
+    "description": "Commit by Tidybot in franka_interact",
+    "files": [
+      "franka_interact/"
+    ],
+    "sha": "0a7af41",
+    "repo": "franka_interact",
     "author": "Tidybot"
   },
   {
