@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TidyBot Army — Activity Log</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- EVA-style background -->
+    <div class="honeycomb-bg"></div>
+    <div class="scanlines"></div>
+
+    <div class="smooth-scroll-wrapper">
+        <!-- Warning banner - EVA style -->
+        <div class="marquee-banner">
+            <div class="marquee-track">
+                <span class="warning-text">⚠ WARNING</span>
+                <span class="separator">◈</span>
+                <span>AUTONOMOUS AGENT ACTIVE</span>
+                <span class="separator">◈</span>
+                <span>TIDYBOT ARMY SYSTEM</span>
+                <span class="separator">◈</span>
+                <span class="warning-text">⚠ WARNING</span>
+                <span class="separator">◈</span>
+                <span>NEURAL LINK ESTABLISHED</span>
+                <span class="separator">◈</span>
+                <span>SYNC RATE: 100%</span>
+                <span class="separator">◈</span>
+                <span class="warning-text">⚠ WARNING</span>
+                <span class="separator">◈</span>
+                <span>MONITORING ACTIVE</span>
+                <span class="separator">◈</span>
+                <!-- Duplicate for seamless loop -->
+                <span class="warning-text">⚠ WARNING</span>
+                <span class="separator">◈</span>
+                <span>AUTONOMOUS AGENT ACTIVE</span>
+                <span class="separator">◈</span>
+                <span>TIDYBOT ARMY SYSTEM</span>
+                <span class="separator">◈</span>
+                <span class="warning-text">⚠ WARNING</span>
+                <span class="separator">◈</span>
+                <span>NEURAL LINK ESTABLISHED</span>
+                <span class="separator">◈</span>
+                <span>SYNC RATE: 100%</span>
+                <span class="separator">◈</span>
+                <span class="warning-text">⚠ WARNING</span>
+                <span class="separator">◈</span>
+                <span>MONITORING ACTIVE</span>
+                <span class="separator">◈</span>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- Hero Section -->
+            <header class="hero">
+                <div class="hero-content">
+                    <span class="hero-tag">Activity Log</span>
+                    <h1 class="hero-title" data-split-text>
+                        <span class="line"><span class="word">Tidybot</span></span>
+                        <span class="line"><span class="word">Army</span></span>
+                    </h1>
+                    <p class="hero-subtitle">Track what the coding agent has accomplished</p>
+                </div>
+                <div class="scroll-indicator">
+                    <span>Scroll</span>
+                    <div class="scroll-line"></div>
+                </div>
+            </header>
+
+            <!-- Main Timeline -->
+            <main class="timeline-container">
+                <!-- Entry indicator -->
+                <div class="phase-indicator">
+                    <div class="phase-number">
+                        <span class="hash-symbol">#</span>
+                        <span class="current-phase">001</span>
+                    </div>
+                    <div class="phase-name">
+                        <span class="phase-label">Entry Type</span>
+                        <span class="phase-title-text">Setup</span>
+                    </div>
+                </div>
+
+                <!-- Combined timeline + cards viewport -->
+                <div class="events-viewport">
+                    <!-- Timeline bar with robot -->
+                    <div class="timeline-bar">
+                        <div class="timeline-line">
+                            <div class="robot">
+                                <div class="robot-antenna"></div>
+                                <div class="robot-head">
+                                    <div class="robot-eye left"></div>
+                                    <div class="robot-eye right"></div>
+                                </div>
+                                <div class="robot-body"></div>
+                                <div class="robot-wheel left"></div>
+                                <div class="robot-wheel right"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slider with nodes + cards -->
+                    <div class="events-slider">
+                        <!-- Nodes row -->
+                        <div class="timeline-nodes">
+                            <!-- Nodes generated by JS -->
+                        </div>
+                        <!-- Cards row -->
+                        <div class="cards-row">
+                            <!-- Cards generated by JS -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navigation -->
+                <nav class="timeline-nav">
+                    <button class="nav-btn prev" aria-label="Previous entry" disabled>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M19 12H5M12 19l-7-7 7-7"/>
+                        </svg>
+                        <span class="btn-label">Prev</span>
+                    </button>
+
+                    <div class="nav-counter">
+                        <span class="counter-label">Entry</span>
+                        <span class="counter-current">#001</span>
+                    </div>
+
+                    <button class="nav-btn next" aria-label="Next entry">
+                        <span class="btn-label">Next</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </button>
+                </nav>
+            </main>
+
+            <!-- Footer -->
+            <footer class="timeline-footer">
+                <div class="footer-content">
+                    <span class="footer-brand">TidyBot Army</span>
+                    <span class="footer-year">Agent Log v1.0</span>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
