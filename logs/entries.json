@@ -118,5 +118,17 @@
     "sha": "8e79699",
     "repo": "tidybot-agent-server",
     "author": "Tidybot"
+  },
+  {
+    "timestamp": "2026-02-06 06:08",
+    "type": "test",
+    "title": "Add code execution history, lease queue test, and move tests to tests/",
+    "description": "Commit by Tidybot in tidybot-agent-server",
+    "files": [
+      "tidybot-agent-server/"
+    ],
+    "sha": "39c5013",
+    "repo": "tidybot-agent-server",
+    "author": "Tidybot"
   }
 ]
