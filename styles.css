@@ -303,6 +303,47 @@ body {
 }
 
 /* ============================================
+   INTRO SECTION
+   ============================================ */
+.intro-section {
+    padding: 1.5rem 0 3rem;
+    border-bottom: 1px solid var(--color-border);
+    margin-bottom: 1rem;
+}
+
+.intro-text {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: var(--color-text-soft);
+    letter-spacing: 0.03em;
+    line-height: 1.8;
+}
+
+.intro-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    color: var(--color-warning);
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 0.5rem;
+    transition: color var(--duration-fast) var(--ease-smooth);
+}
+
+.intro-link:hover {
+    color: var(--color-warning-bright);
+    text-shadow: 0 0 10px var(--color-warning);
+}
+
+.intro-link svg {
+    transition: transform var(--duration-fast) var(--ease-smooth);
+}
+
+.intro-link:hover svg {
+    transform: translate(2px, -2px);
+}
+
+/* ============================================
    TIMELINE ROWS
    ============================================ */
 .timeline-row {
