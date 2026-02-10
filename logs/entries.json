@@ -600,6 +600,18 @@
     "author": "Tidybot"
   },
   {
+    "timestamp": "2026-02-09 16:11",
+    "type": "test",
+    "title": "Add lease queue system, SDK motion improvements, service dashboard overhaul, and",
+    "description": "Commit by Tidybot in agent_server",
+    "files": [
+      "agent_server/"
+    ],
+    "sha": "2f4ebbb",
+    "repo": "agent_server",
+    "author": "Tidybot"
+  },
+  {
     "timestamp": "2026-02-09 17:10",
     "type": "feature",
     "title": "Lower minimum motion duration from 2.0s to 0.5s for faster small moves",
@@ -633,6 +645,30 @@
     ],
     "sha": "6d9fd17",
     "repo": "tidybot-agent-server",
+    "author": "Tidybot"
+  },
+  {
+    "timestamp": "2026-02-10 03:59",
+    "type": "feature",
+    "title": "Remove tracked __pycache__ files",
+    "description": "Commit by Tidybot in gripper_robotiq_service",
+    "files": [
+      "gripper_robotiq_service/"
+    ],
+    "sha": "ca31322",
+    "repo": "gripper_robotiq_service",
+    "author": "Tidybot"
+  },
+  {
+    "timestamp": "2026-02-10 03:59",
+    "type": "feature",
+    "title": "Add .gitignore and remove tracked __pycache__ files",
+    "description": "Commit by Tidybot in base_tidybot_service",
+    "files": [
+      "base_tidybot_service/"
+    ],
+    "sha": "5873e7e",
+    "repo": "base_tidybot_service",
     "author": "Tidybot"
   }
 ]
