@@ -138,7 +138,7 @@ jobs:
             console.log(`Found ${repos.length} repos in ${org}`);
 
             // Filter out infra repos
-            const ignoredRepos = ['.github', 'tidybot-templates', 'tidybot-army-timeline', 'Tidybot-Universe'];
+            const ignoredRepos = ['.github', 'tidybot-templates', 'TidyBot-Services.github.io', 'Tidybot-Universe'];
             const filteredRepos = repos.filter(r => !ignoredRepos.includes(r.name));
             console.log(`${filteredRepos.length} repos after filtering`);
 

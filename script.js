@@ -97,6 +97,16 @@ async function loadServices() {
     }));
 }
 
+function isAgentRepo(name) {
+    return /agent/i.test(name);
+}
+
+function splitAgentServices(services) {
+    const agents = services.filter(s => isAgentRepo(s.title));
+    const nonAgents = services.filter(s => !isAgentRepo(s.title));
+    return { agents, nonAgents };
+}
+
 function prepareEntries(entries) {
     const sorted = [...entries].sort((a, b) => {
         const tA = a.timestamp ? a.timestamp.replace(' ', 'T') : '';
@@ -748,11 +758,16 @@ document.addEventListener('DOMContentLoaded', async () => {
         loadServices()
     ]);
 
-    // Services: repos from TidyBot-Services org
-    initGallery('backend', prepareEntries(services));
+    const { agents, nonAgents } = splitAgentServices(services);
 
     // Skills: repos from tidybot-skills org
     initGallery('frontend', prepareEntries(skills));
+
+    // Agents: repos with "agent" in the name (the glue between skills and services)
+    initGallery('agents', prepareEntries(agents));
+
+    // Services: remaining repos from TidyBot-Services org
+    initGallery('backend', prepareEntries(nonAgents));
 
     setupGlobalEvents();
     tick();
@@ -767,8 +782,10 @@ window.TidyBotTimeline = {
             loadRepos('./logs/repos.json'),
             loadServices()
         ]);
-        galleries.backend && (galleries.backend.entries = prepareEntries(services));
+        const { agents, nonAgents } = splitAgentServices(services);
         galleries.frontend && (galleries.frontend.entries = prepareEntries(skills));
+        galleries.agents && (galleries.agents.entries = prepareEntries(agents));
+        galleries.backend && (galleries.backend.entries = prepareEntries(nonAgents));
         for (const n in galleries) renderGallery(n);
     }
 };
