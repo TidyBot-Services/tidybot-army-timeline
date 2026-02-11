@@ -717,6 +717,62 @@ function initParallax() {
 }
 
 // ============================================
+// AGENTS SECTION (hex + blurb, no timeline)
+// ============================================
+
+const AGENT_BLURBS = {
+    agent_server: 'The unified API layer between skills and hardware. Provides safety envelope, rewind, lease system, and sandboxed code execution so agents can experiment freely.',
+    agent_system_logger: 'Records every movement as unified waypoints. Powers the rewind system — trajectory reversal for safe error recovery.'
+};
+
+function renderAgents(entries) {
+    const grid = document.getElementById('agents-grid');
+    if (!grid) return;
+
+    const hexSize = HEX_SIZES.lg;
+
+    grid.innerHTML = entries.map((entry, i) => {
+        const typeColor = typeConfig[entry.type]?.color || '#9d4edd';
+        const typeLabel = typeConfig[entry.type]?.label || 'Agent';
+        const blurb = AGENT_BLURBS[entry.title] || entry.description;
+        const patternIdx = i % 4;
+        const floatDelay = (i * 1.2).toFixed(1);
+
+        return `<div class="agent-item">
+            <div class="agent-hex hex-card hex-lg visible"
+                 style="width:${hexSize.w}px;height:${hexSize.h}px;--float-delay:${floatDelay}s;position:relative;"
+                 data-url="${entry.html_url || ''}">
+                <div class="hex-border">
+                    <div class="hex-inner">
+                        <div class="hex-bg pattern-${patternIdx}"
+                             style="--type-color:${typeColor};"></div>
+                        <div class="hex-content">
+                            <span class="hex-type" style="color:${typeColor};">${typeLabel}</span>
+                            <h3 class="hex-title">${entry.title}</h3>
+                            <span class="hex-date">${entry.language || ''}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="agent-blurb">
+                <h3 class="agent-blurb-title">${entry.title}</h3>
+                <p class="agent-blurb-text">${blurb}</p>
+                ${entry.html_url ? `<a href="${entry.html_url}" target="_blank" rel="noopener noreferrer" class="popup-repo-link">View Repo →</a>` : ''}
+            </div>
+        </div>`;
+    }).join('');
+
+    // Click to open repo
+    grid.querySelectorAll('.agent-hex').forEach(hex => {
+        hex.style.cursor = 'pointer';
+        hex.addEventListener('click', () => {
+            const url = hex.dataset.url;
+            if (url) window.open(url, '_blank');
+        });
+    });
+}
+
+// ============================================
 // INIT
 // ============================================
 
@@ -764,7 +820,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     initGallery('frontend', prepareEntries(skills));
 
     // Agents: repos with "agent" in the name (the glue between skills and services)
-    initGallery('agents', prepareEntries(agents));
+    renderAgents(prepareEntries(agents));
 
     // Services: remaining repos from TidyBot-Services org
     initGallery('backend', prepareEntries(nonAgents));
@@ -784,7 +840,7 @@ window.TidyBotTimeline = {
         ]);
         const { agents, nonAgents } = splitAgentServices(services);
         galleries.frontend && (galleries.frontend.entries = prepareEntries(skills));
-        galleries.agents && (galleries.agents.entries = prepareEntries(agents));
+        renderAgents(prepareEntries(agents));
         galleries.backend && (galleries.backend.entries = prepareEntries(nonAgents));
         for (const n in galleries) renderGallery(n);
     }
