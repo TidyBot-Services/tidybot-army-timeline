@@ -160,8 +160,8 @@
     "stars": 0,
     "is_private": false,
     "default_branch": "main",
-    "success_rate": 100,
-    "total_trials": 1,
+    "success_rate": 50,
+    "total_trials": 6,
     "institutions_tested": 1
   }
 ]
