@@ -1246,5 +1246,29 @@
     "sha": "13ababf",
     "repo": "agent_server",
     "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-02-12 16:03",
+    "type": "feature",
+    "title": "Remove duplicate OpenClaw template files, keep only Tidybot customizations",
+    "description": "Commit by Yifei Simon Shao in Tidybot-Universe",
+    "files": [
+      "Tidybot-Universe/"
+    ],
+    "sha": "8165d31",
+    "repo": "Tidybot-Universe",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-02-12 16:04",
+    "type": "setup",
+    "title": "Add service-agent-setup with Claude Code as the recommended platform",
+    "description": "Commit by Yifei Simon Shao in Tidybot-Universe",
+    "files": [
+      "Tidybot-Universe/"
+    ],
+    "sha": "0404c74",
+    "repo": "Tidybot-Universe",
+    "author": "Yifei Simon Shao"
   }
 ]
