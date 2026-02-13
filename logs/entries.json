@@ -1342,5 +1342,17 @@
     "sha": "57fc24b",
     "repo": "Tidybot-Universe",
     "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-02-13 02:03",
+    "type": "feature",
+    "title": "Add incremental output polling to /code/status endpoint",
+    "description": "Commit by Tidybot in agent_server",
+    "files": [
+      "agent_server/"
+    ],
+    "sha": "d380b85",
+    "repo": "agent_server",
+    "author": "Tidybot"
   }
 ]
