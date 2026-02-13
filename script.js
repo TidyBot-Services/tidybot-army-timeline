@@ -81,6 +81,7 @@ async function loadRepos(file) {
             success_rate: repo.success_rate ?? null,
             total_trials: repo.total_trials ?? null,
             institutions_tested: repo.institutions_tested ?? null,
+            trial_images: repo.trial_images || [],
             _isRepo: true
         }));
     } catch (e) {
@@ -452,6 +453,21 @@ function openPopup(galleryName, index) {
         imageHTML = `<div class="popup-image"><img src="${entry.image}" alt="${entry.title}"></div>`;
     }
 
+    let trialHTML = '';
+    if (entry.trial_images && entry.trial_images.length > 0) {
+        const thumbs = entry.trial_images.map((url, i) =>
+            `<div class="trial-thumb${i === 0 ? ' active' : ''}" data-index="${i}" style="background-image:url(${url});"></div>`
+        ).join('');
+        trialHTML = `<div class="popup-trial-gallery">
+            <span class="popup-files-label">Successful Trial</span>
+            <div class="trial-hero">
+                <img class="trial-hero-img" src="${entry.trial_images[0]}" alt="Trial photo 1">
+                <span class="trial-counter">1 / ${entry.trial_images.length}</span>
+            </div>
+            <div class="trial-strip">${thumbs}</div>
+        </div>`;
+    }
+
     document.getElementById('popup-inner').innerHTML = `
         <div class="popup-header">
             <span class="popup-number" style="color:${typeColor};">#${entry.id}</span>
@@ -459,12 +475,31 @@ function openPopup(galleryName, index) {
             <span class="popup-date">${entry.timestamp || ''}</span>
         </div>
         ${imageHTML}
+        ${trialHTML}
         <h2 class="popup-title">${entry.title}</h2>
         <p class="popup-desc">${entry.description}</p>
         ${filesHTML}
         ${repoMeta}
         ${repoLink}
     `;
+
+    // Wire up trial gallery thumbnail clicks
+    const trialGallery = document.querySelector('.popup-trial-gallery');
+    if (trialGallery) {
+        const heroImg = trialGallery.querySelector('.trial-hero-img');
+        const counter = trialGallery.querySelector('.trial-counter');
+        const thumbs = trialGallery.querySelectorAll('.trial-thumb');
+        thumbs.forEach(thumb => {
+            thumb.addEventListener('click', () => {
+                const idx = parseInt(thumb.dataset.index, 10);
+                heroImg.src = entry.trial_images[idx];
+                heroImg.alt = `Trial photo ${idx + 1}`;
+                counter.textContent = `${idx + 1} / ${entry.trial_images.length}`;
+                thumbs.forEach(t => t.classList.remove('active'));
+                thumb.classList.add('active');
+            });
+        });
+    }
 
     document.getElementById('popup-overlay').classList.add('open');
 }
