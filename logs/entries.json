@@ -1390,5 +1390,17 @@
     "sha": "f245f7f",
     "repo": "agent_server",
     "author": "Tidybot"
+  },
+  {
+    "timestamp": "2026-02-13 16:29",
+    "type": "feature",
+    "title": "Enforce SDK guide reading and existing skill reuse before writing new code",
+    "description": "Commit by Yifei Simon Shao in Tidybot-Universe",
+    "files": [
+      "Tidybot-Universe/"
+    ],
+    "sha": "d50a22c",
+    "repo": "Tidybot-Universe",
+    "author": "Yifei Simon Shao"
   }
 ]
