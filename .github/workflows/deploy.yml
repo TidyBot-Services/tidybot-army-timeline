@@ -12,7 +12,7 @@ on:
     types: [update-timeline]
   # Run after fetch workflows complete
   workflow_run:
-    workflows: ["Fetch Org Commits", "Fetch Frontend Repos"]
+    workflows: ["Fetch Org Commits", "Fetch Repos"]
     types: [completed]
 
 permissions:
