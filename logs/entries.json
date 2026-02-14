@@ -1210,5 +1210,53 @@
     "sha": "c244f57",
     "repo": "backend_wishlist",
     "author": "qifei-c"
+  },
+  {
+    "timestamp": "2026-02-14 16:24",
+    "type": "feature",
+    "title": "Add tidybot-bundle tool for bundling skills with dependencies",
+    "description": "Commit by Yifei Simon Shao in Tidybot-Universe",
+    "files": [
+      "Tidybot-Universe/"
+    ],
+    "sha": "7bf70a3",
+    "repo": "Tidybot-Universe",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-02-14 16:26",
+    "type": "feature",
+    "title": "Mention tidybot-bundle in MISSION.md skill chaining step",
+    "description": "Commit by Yifei Simon Shao in Tidybot-Universe",
+    "files": [
+      "Tidybot-Universe/"
+    ],
+    "sha": "72983e0",
+    "repo": "Tidybot-Universe",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-02-14 16:39",
+    "type": "feature",
+    "title": "Rebrand: replace backend/frontend with services/skills terminology",
+    "description": "Commit by Tidybot in backend_wishlist",
+    "files": [
+      "backend_wishlist/"
+    ],
+    "sha": "3c29fc3",
+    "repo": "backend_wishlist",
+    "author": "Tidybot"
+  },
+  {
+    "timestamp": "2026-02-14 16:39",
+    "type": "feature",
+    "title": "Rebrand: replace backend_wishlist references with services_wishlist",
+    "description": "Commit by Tidybot in .github",
+    "files": [
+      ".github/"
+    ],
+    "sha": "4809542",
+    "repo": ".github",
+    "author": "Tidybot"
   }
 ]
