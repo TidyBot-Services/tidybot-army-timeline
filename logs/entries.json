@@ -1018,5 +1018,185 @@
     "sha": "f9b0eb6",
     "repo": "backend_wishlist",
     "author": "Tidybot"
+  },
+  {
+    "timestamp": "2026-02-14 07:02",
+    "type": "setup",
+    "title": "Initial commit: Grounded SAM 2 service with Grounding DINO + SAM 2",
+    "description": "Commit by qifei-c in grounded-sam2-service",
+    "files": [
+      "grounded-sam2-service/"
+    ],
+    "sha": "e094246",
+    "repo": "grounded-sam2-service",
+    "author": "qifei-c"
+  },
+  {
+    "timestamp": "2026-02-14 07:06",
+    "type": "docs",
+    "title": "Remove manual setup steps from OpenClaw README",
+    "description": "Commit by Yifei Simon Shao in Tidybot-Universe",
+    "files": [
+      "Tidybot-Universe/"
+    ],
+    "sha": "4f55fdf",
+    "repo": "Tidybot-Universe",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-02-14 07:06",
+    "type": "docs",
+    "title": "Update OpenClaw README to reflect patch-based AGENTS.md approach",
+    "description": "Commit by Yifei Simon Shao in Tidybot-Universe",
+    "files": [
+      "Tidybot-Universe/"
+    ],
+    "sha": "ad1aae7",
+    "repo": "Tidybot-Universe",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-02-14 07:09",
+    "type": "setup",
+    "title": "Initial commit: GraspGen 6-DOF grasp pose generation service",
+    "description": "Commit by qifei-c in graspgen-service",
+    "files": [
+      "graspgen-service/"
+    ],
+    "sha": "89ed491",
+    "repo": "graspgen-service",
+    "author": "qifei-c"
+  },
+  {
+    "timestamp": "2026-02-14 07:10",
+    "type": "feature",
+    "title": "Update graspgen status to building, assigned to steve",
+    "description": "Commit by Selina Wan in backend_wishlist",
+    "files": [
+      "backend_wishlist/"
+    ],
+    "sha": "07090b8",
+    "repo": "backend_wishlist",
+    "author": "Selina Wan"
+  },
+  {
+    "timestamp": "2026-02-14 07:10",
+    "type": "feature",
+    "title": "Add graspgen service to catalog",
+    "description": "Commit by Selina Wan in backend_wishlist",
+    "files": [
+      "backend_wishlist/"
+    ],
+    "sha": "b6f0ce0",
+    "repo": "backend_wishlist",
+    "author": "Selina Wan"
+  },
+  {
+    "timestamp": "2026-02-14 07:10",
+    "type": "fix",
+    "title": "Fix port to 8002 (8001 taken by grounded-sam2)",
+    "description": "Commit by qifei-c in graspgen-service",
+    "files": [
+      "graspgen-service/"
+    ],
+    "sha": "735a5b0",
+    "repo": "graspgen-service",
+    "author": "qifei-c"
+  },
+  {
+    "timestamp": "2026-02-14 07:10",
+    "type": "setup",
+    "title": "Initial commit: FoundationStereo depth estimation service",
+    "description": "Commit by qifei-c in foundation-stereo-service",
+    "files": [
+      "foundation-stereo-service/"
+    ],
+    "sha": "01545b7",
+    "repo": "foundation-stereo-service",
+    "author": "qifei-c"
+  },
+  {
+    "timestamp": "2026-02-14 07:11",
+    "type": "feature",
+    "title": "Update foundation-stereo: status=building, assigned=steve",
+    "description": "Commit by Selina Wan in backend_wishlist",
+    "files": [
+      "backend_wishlist/"
+    ],
+    "sha": "c82a683",
+    "repo": "backend_wishlist",
+    "author": "Selina Wan"
+  },
+  {
+    "timestamp": "2026-02-14 07:11",
+    "type": "feature",
+    "title": "Add foundation-stereo to catalog",
+    "description": "Commit by Selina Wan in backend_wishlist",
+    "files": [
+      "backend_wishlist/"
+    ],
+    "sha": "80e9486",
+    "repo": "backend_wishlist",
+    "author": "Selina Wan"
+  },
+  {
+    "timestamp": "2026-02-14 07:13",
+    "type": "setup",
+    "title": "Add provider stub, Pointnet2 dependency, fix port to 8002, update setup",
+    "description": "Commit by qifei-c in graspgen-service",
+    "files": [
+      "graspgen-service/"
+    ],
+    "sha": "a186704",
+    "repo": "graspgen-service",
+    "author": "qifei-c"
+  },
+  {
+    "timestamp": "2026-02-14 07:15",
+    "type": "deploy",
+    "title": "Update foundation-stereo: status=deployed",
+    "description": "Commit by Selina Wan in backend_wishlist",
+    "files": [
+      "backend_wishlist/"
+    ],
+    "sha": "c09755d",
+    "repo": "backend_wishlist",
+    "author": "Selina Wan"
+  },
+  {
+    "timestamp": "2026-02-14 07:15",
+    "type": "fix",
+    "title": "Fix: use port 8003, disable xformers, weights_only=False for torch.load",
+    "description": "Commit by qifei-c in foundation-stereo-service",
+    "files": [
+      "foundation-stereo-service/"
+    ],
+    "sha": "d389500",
+    "repo": "foundation-stereo-service",
+    "author": "qifei-c"
+  },
+  {
+    "timestamp": "2026-02-14 07:31",
+    "type": "fix",
+    "title": "Fix wishlist ownership: skills = humans only, services = humans or skill agents",
+    "description": "Commit by Yifei Simon Shao in Tidybot-Universe",
+    "files": [
+      "Tidybot-Universe/"
+    ],
+    "sha": "efd28d7",
+    "repo": "Tidybot-Universe",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-02-14 07:34",
+    "type": "docs",
+    "title": "Remove redundant ASCII diagram from README",
+    "description": "Commit by Yifei Simon Shao in Tidybot-Universe",
+    "files": [
+      "Tidybot-Universe/"
+    ],
+    "sha": "eaec5ac",
+    "repo": "Tidybot-Universe",
+    "author": "Yifei Simon Shao"
   }
 ]
