@@ -279,12 +279,12 @@
     "timestamp": "2026-02-09 02:15",
     "type": "setup",
     "title": "Initialize backend wishlist repo",
-    "description": "Commit by kaitianchao in backend_wishlist",
+    "description": "Commit by kaitianchao in services_wishlist",
     "files": [
-      "backend_wishlist/"
+      "services_wishlist/"
     ],
     "sha": "61443cd",
-    "repo": "backend_wishlist",
+    "repo": "services_wishlist",
     "author": "kaitianchao"
   },
   {
@@ -315,12 +315,12 @@
     "timestamp": "2026-02-09 03:17",
     "type": "feature",
     "title": "Add first request: camera extrinsic calibration",
-    "description": "Commit by kaitianchao in backend_wishlist",
+    "description": "Commit by kaitianchao in services_wishlist",
     "files": [
-      "backend_wishlist/"
+      "services_wishlist/"
     ],
     "sha": "4f54566",
-    "repo": "backend_wishlist",
+    "repo": "services_wishlist",
     "author": "kaitianchao"
   },
   {
@@ -903,12 +903,12 @@
     "timestamp": "2026-02-14 02:51",
     "type": "feature",
     "title": "Publish yolo-detection v0.2.0 to catalog (detection + segmentation)",
-    "description": "Commit by qifei-c in backend_wishlist",
+    "description": "Commit by qifei-c in services_wishlist",
     "files": [
-      "backend_wishlist/"
+      "services_wishlist/"
     ],
     "sha": "eab2bdb",
-    "repo": "backend_wishlist",
+    "repo": "services_wishlist",
     "author": "qifei-c"
   },
   {
@@ -987,12 +987,12 @@
     "timestamp": "2026-02-14 06:41",
     "type": "feature",
     "title": "Request Grounded SAM 2 for open-vocabulary detection and segmentation",
-    "description": "Commit by Tidybot in backend_wishlist",
+    "description": "Commit by Tidybot in services_wishlist",
     "files": [
-      "backend_wishlist/"
+      "services_wishlist/"
     ],
     "sha": "471fe7a",
-    "repo": "backend_wishlist",
+    "repo": "services_wishlist",
     "author": "Tidybot"
   },
   {
@@ -1011,12 +1011,12 @@
     "timestamp": "2026-02-14 06:55",
     "type": "feature",
     "title": "Request GraspGen for 6-DOF grasp pose generation",
-    "description": "Commit by Tidybot in backend_wishlist",
+    "description": "Commit by Tidybot in services_wishlist",
     "files": [
-      "backend_wishlist/"
+      "services_wishlist/"
     ],
     "sha": "f9b0eb6",
-    "repo": "backend_wishlist",
+    "repo": "services_wishlist",
     "author": "Tidybot"
   },
   {
@@ -1071,24 +1071,24 @@
     "timestamp": "2026-02-14 07:10",
     "type": "feature",
     "title": "Update graspgen status to building, assigned to steve",
-    "description": "Commit by Selina Wan in backend_wishlist",
+    "description": "Commit by Selina Wan in services_wishlist",
     "files": [
-      "backend_wishlist/"
+      "services_wishlist/"
     ],
     "sha": "07090b8",
-    "repo": "backend_wishlist",
+    "repo": "services_wishlist",
     "author": "Selina Wan"
   },
   {
     "timestamp": "2026-02-14 07:10",
     "type": "feature",
     "title": "Add graspgen service to catalog",
-    "description": "Commit by Selina Wan in backend_wishlist",
+    "description": "Commit by Selina Wan in services_wishlist",
     "files": [
-      "backend_wishlist/"
+      "services_wishlist/"
     ],
     "sha": "b6f0ce0",
-    "repo": "backend_wishlist",
+    "repo": "services_wishlist",
     "author": "Selina Wan"
   },
   {
@@ -1119,24 +1119,24 @@
     "timestamp": "2026-02-14 07:11",
     "type": "feature",
     "title": "Update foundation-stereo: status=building, assigned=steve",
-    "description": "Commit by Selina Wan in backend_wishlist",
+    "description": "Commit by Selina Wan in services_wishlist",
     "files": [
-      "backend_wishlist/"
+      "services_wishlist/"
     ],
     "sha": "c82a683",
-    "repo": "backend_wishlist",
+    "repo": "services_wishlist",
     "author": "Selina Wan"
   },
   {
     "timestamp": "2026-02-14 07:11",
     "type": "feature",
     "title": "Add foundation-stereo to catalog",
-    "description": "Commit by Selina Wan in backend_wishlist",
+    "description": "Commit by Selina Wan in services_wishlist",
     "files": [
-      "backend_wishlist/"
+      "services_wishlist/"
     ],
     "sha": "80e9486",
-    "repo": "backend_wishlist",
+    "repo": "services_wishlist",
     "author": "Selina Wan"
   },
   {
@@ -1155,12 +1155,12 @@
     "timestamp": "2026-02-14 07:15",
     "type": "deploy",
     "title": "Update foundation-stereo: status=deployed",
-    "description": "Commit by Selina Wan in backend_wishlist",
+    "description": "Commit by Selina Wan in services_wishlist",
     "files": [
-      "backend_wishlist/"
+      "services_wishlist/"
     ],
     "sha": "c09755d",
-    "repo": "backend_wishlist",
+    "repo": "services_wishlist",
     "author": "Selina Wan"
   },
   {
@@ -1203,12 +1203,12 @@
     "timestamp": "2026-02-14 07:44",
     "type": "feature",
     "title": "Mark grounded-sam2, graspgen, foundation-stereo as done",
-    "description": "Commit by qifei-c in backend_wishlist",
+    "description": "Commit by qifei-c in services_wishlist",
     "files": [
-      "backend_wishlist/"
+      "services_wishlist/"
     ],
     "sha": "c244f57",
-    "repo": "backend_wishlist",
+    "repo": "services_wishlist",
     "author": "qifei-c"
   },
   {
@@ -1239,12 +1239,12 @@
     "timestamp": "2026-02-14 16:39",
     "type": "feature",
     "title": "Rebrand: replace backend/frontend with services/skills terminology",
-    "description": "Commit by Tidybot in backend_wishlist",
+    "description": "Commit by Tidybot in services_wishlist",
     "files": [
-      "backend_wishlist/"
+      "services_wishlist/"
     ],
     "sha": "3c29fc3",
-    "repo": "backend_wishlist",
+    "repo": "services_wishlist",
     "author": "Tidybot"
   },
   {
@@ -1258,5 +1258,29 @@
     "sha": "4809542",
     "repo": ".github",
     "author": "Tidybot"
+  },
+  {
+    "timestamp": "2026-02-14 16:46",
+    "type": "feature",
+    "title": "Add skill clone/pull instructions to MISSION.md Step 1",
+    "description": "Commit by Yifei Simon Shao in Tidybot-Universe",
+    "files": [
+      "Tidybot-Universe/"
+    ],
+    "sha": "bcafde8",
+    "repo": "Tidybot-Universe",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-02-14 17:08",
+    "type": "feature",
+    "title": "Rename backend_wishlist → services_wishlist, document online service pattern",
+    "description": "Commit by Yifei Simon Shao in Tidybot-Universe",
+    "files": [
+      "Tidybot-Universe/"
+    ],
+    "sha": "fe4e05d",
+    "repo": "Tidybot-Universe",
+    "author": "Yifei Simon Shao"
   }
 ]
