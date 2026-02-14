@@ -982,5 +982,41 @@
     "sha": "2bdd319",
     "repo": "Tidybot-Universe",
     "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-02-14 06:41",
+    "type": "feature",
+    "title": "Request Grounded SAM 2 for open-vocabulary detection and segmentation",
+    "description": "Commit by Tidybot in backend_wishlist",
+    "files": [
+      "backend_wishlist/"
+    ],
+    "sha": "471fe7a",
+    "repo": "backend_wishlist",
+    "author": "Tidybot"
+  },
+  {
+    "timestamp": "2026-02-14 06:44",
+    "type": "setup",
+    "title": "Replace full AGENTS.md copy with patch-based injection in setup.sh",
+    "description": "Commit by Yifei Simon Shao in Tidybot-Universe",
+    "files": [
+      "Tidybot-Universe/"
+    ],
+    "sha": "d68ad0b",
+    "repo": "Tidybot-Universe",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-02-14 06:55",
+    "type": "feature",
+    "title": "Request GraspGen for 6-DOF grasp pose generation",
+    "description": "Commit by Tidybot in backend_wishlist",
+    "files": [
+      "backend_wishlist/"
+    ],
+    "sha": "f9b0eb6",
+    "repo": "backend_wishlist",
+    "author": "Tidybot"
   }
 ]
