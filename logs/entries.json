@@ -1366,5 +1366,521 @@
     "sha": "79be2eb",
     "repo": "Tidybot-Universe",
     "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-02-15 08:18",
+    "type": "feature",
+    "title": "Request: raw depth SDK access + navigation/mapping service",
+    "description": "Commit by Yifei Simon Shao in services_wishlist",
+    "files": [
+      "services_wishlist/"
+    ],
+    "sha": "42ab2b5",
+    "repo": "services_wishlist",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-02-15 08:59",
+    "type": "feature",
+    "title": "mark nav-mapping-service as building",
+    "description": "Commit by Selina Wan in services_wishlist",
+    "files": [
+      "services_wishlist/"
+    ],
+    "sha": "b0bfeb8",
+    "repo": "services_wishlist",
+    "author": "Selina Wan"
+  },
+  {
+    "timestamp": "2026-02-15 09:02",
+    "type": "feature",
+    "title": "Mark nav-mapping-service as done",
+    "description": "Commit by Selina Wan in services_wishlist",
+    "files": [
+      "services_wishlist/"
+    ],
+    "sha": "ef49be6",
+    "repo": "services_wishlist",
+    "author": "Selina Wan"
+  },
+  {
+    "timestamp": "2026-02-15 09:02",
+    "type": "feature",
+    "title": "Add nav-mapping-service to catalog",
+    "description": "Commit by Selina Wan in services_wishlist",
+    "files": [
+      "services_wishlist/"
+    ],
+    "sha": "0d30f55",
+    "repo": "services_wishlist",
+    "author": "Selina Wan"
+  },
+  {
+    "timestamp": "2026-02-15 09:02",
+    "type": "setup",
+    "title": "Initial nav-mapping-service: occupancy grid, A* planning, frontier detection",
+    "description": "Commit by qifei-c in nav-mapping-service",
+    "files": [
+      "nav-mapping-service/"
+    ],
+    "sha": "4dab179",
+    "repo": "nav-mapping-service",
+    "author": "qifei-c"
+  },
+  {
+    "timestamp": "2026-02-15 14:00",
+    "type": "feature",
+    "title": "mark nav-mapping-service as done",
+    "description": "Commit by Selina Wan in services_wishlist",
+    "files": [
+      "services_wishlist/"
+    ],
+    "sha": "267cf2e",
+    "repo": "services_wishlist",
+    "author": "Selina Wan"
+  },
+  {
+    "timestamp": "2026-02-15 16:29",
+    "type": "feature",
+    "title": "Add -L flag to curl instruction for following redirects",
+    "description": "Commit by Yifei Simon Shao in Tidybot-Universe",
+    "files": [
+      "Tidybot-Universe/"
+    ],
+    "sha": "c846fbe",
+    "repo": "Tidybot-Universe",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-02-15 16:40",
+    "type": "feature",
+    "title": "Show required request bodies in lease workflow steps",
+    "description": "Commit by Tidybot in agent_server",
+    "files": [
+      "agent_server/"
+    ],
+    "sha": "a85c108",
+    "repo": "agent_server",
+    "author": "Tidybot"
+  },
+  {
+    "timestamp": "2026-02-15 17:08",
+    "type": "setup",
+    "title": "Add agent server to ecosystem table and setup instructions",
+    "description": "Commit by Tidybot in Tidybot-Universe",
+    "files": [
+      "Tidybot-Universe/"
+    ],
+    "sha": "4737a8d",
+    "repo": "Tidybot-Universe",
+    "author": "Tidybot"
+  },
+  {
+    "timestamp": "2026-02-16 00:46",
+    "type": "feature",
+    "title": "Add client SDK spec for sandbox-compatible service clients",
+    "description": "Commit by Tidybot in services_wishlist",
+    "files": [
+      "services_wishlist/"
+    ],
+    "sha": "2090d50",
+    "repo": "services_wishlist",
+    "author": "Tidybot"
+  },
+  {
+    "timestamp": "2026-02-16 01:07",
+    "type": "feature",
+    "title": "rewrite client.py for sandbox compatibility (urllib)",
+    "description": "Commit by qifei-c in grounded-sam2-service",
+    "files": [
+      "grounded-sam2-service/"
+    ],
+    "sha": "589babb",
+    "repo": "grounded-sam2-service",
+    "author": "qifei-c"
+  },
+  {
+    "timestamp": "2026-02-16 01:07",
+    "type": "feature",
+    "title": "rewrite client.py for sandbox compatibility (urllib)",
+    "description": "Commit by qifei-c in graspgen-service",
+    "files": [
+      "graspgen-service/"
+    ],
+    "sha": "7f7d31d",
+    "repo": "graspgen-service",
+    "author": "qifei-c"
+  },
+  {
+    "timestamp": "2026-02-16 01:07",
+    "type": "feature",
+    "title": "rewrite client.py for sandbox compatibility (urllib)",
+    "description": "Commit by qifei-c in foundation-stereo-service",
+    "files": [
+      "foundation-stereo-service/"
+    ],
+    "sha": "219ca81",
+    "repo": "foundation-stereo-service",
+    "author": "qifei-c"
+  },
+  {
+    "timestamp": "2026-02-16 01:07",
+    "type": "feature",
+    "title": "rewrite client.py for sandbox compatibility (urllib)",
+    "description": "Commit by qifei-c in nav-mapping-service",
+    "files": [
+      "nav-mapping-service/"
+    ],
+    "sha": "cdd7ca3",
+    "repo": "nav-mapping-service",
+    "author": "qifei-c"
+  },
+  {
+    "timestamp": "2026-02-16 01:08",
+    "type": "feature",
+    "title": "add usage fields to grounded-sam2, graspgen, foundation-stereo, nav-mapping",
+    "description": "Commit by qifei-c in services_wishlist",
+    "files": [
+      "services_wishlist/"
+    ],
+    "sha": "fb597f1",
+    "repo": "services_wishlist",
+    "author": "qifei-c"
+  },
+  {
+    "timestamp": "2026-02-16 01:49",
+    "type": "feature",
+    "title": "rename service client import path: services → service_clients",
+    "description": "Commit by Tidybot in services_wishlist",
+    "files": [
+      "services_wishlist/"
+    ],
+    "sha": "b282574",
+    "repo": "services_wishlist",
+    "author": "Tidybot"
+  },
+  {
+    "timestamp": "2026-02-16 01:55",
+    "type": "fix",
+    "title": "fix: update import path from services to service_clients",
+    "description": "Commit by qifei-c in grounded-sam2-service",
+    "files": [
+      "grounded-sam2-service/"
+    ],
+    "sha": "23745ae",
+    "repo": "grounded-sam2-service",
+    "author": "qifei-c"
+  },
+  {
+    "timestamp": "2026-02-16 01:55",
+    "type": "fix",
+    "title": "fix: update import path from services to service_clients",
+    "description": "Commit by qifei-c in graspgen-service",
+    "files": [
+      "graspgen-service/"
+    ],
+    "sha": "ec86f77",
+    "repo": "graspgen-service",
+    "author": "qifei-c"
+  },
+  {
+    "timestamp": "2026-02-16 01:55",
+    "type": "fix",
+    "title": "fix: update import path from services to service_clients",
+    "description": "Commit by qifei-c in foundation-stereo-service",
+    "files": [
+      "foundation-stereo-service/"
+    ],
+    "sha": "deb30b4",
+    "repo": "foundation-stereo-service",
+    "author": "qifei-c"
+  },
+  {
+    "timestamp": "2026-02-16 01:55",
+    "type": "fix",
+    "title": "fix: update import path from services to service_clients",
+    "description": "Commit by qifei-c in nav-mapping-service",
+    "files": [
+      "nav-mapping-service/"
+    ],
+    "sha": "01905b3",
+    "repo": "nav-mapping-service",
+    "author": "qifei-c"
+  },
+  {
+    "timestamp": "2026-02-16 02:03",
+    "type": "docs",
+    "title": "docs: update README for urllib client and service_clients import path",
+    "description": "Commit by qifei-c in grounded-sam2-service",
+    "files": [
+      "grounded-sam2-service/"
+    ],
+    "sha": "7b34b88",
+    "repo": "grounded-sam2-service",
+    "author": "qifei-c"
+  },
+  {
+    "timestamp": "2026-02-16 02:03",
+    "type": "docs",
+    "title": "docs: update README for urllib client and service_clients import path",
+    "description": "Commit by qifei-c in graspgen-service",
+    "files": [
+      "graspgen-service/"
+    ],
+    "sha": "fc0262d",
+    "repo": "graspgen-service",
+    "author": "qifei-c"
+  },
+  {
+    "timestamp": "2026-02-16 02:03",
+    "type": "docs",
+    "title": "docs: update README for urllib client and service_clients import path",
+    "description": "Commit by qifei-c in foundation-stereo-service",
+    "files": [
+      "foundation-stereo-service/"
+    ],
+    "sha": "7443020",
+    "repo": "foundation-stereo-service",
+    "author": "qifei-c"
+  },
+  {
+    "timestamp": "2026-02-16 02:03",
+    "type": "docs",
+    "title": "docs: update README for urllib client and service_clients import path",
+    "description": "Commit by qifei-c in nav-mapping-service",
+    "files": [
+      "nav-mapping-service/"
+    ],
+    "sha": "95aa03e",
+    "repo": "nav-mapping-service",
+    "author": "qifei-c"
+  },
+  {
+    "timestamp": "2026-02-16 03:57",
+    "type": "feature",
+    "title": "feat: update grounded-sam2 to v0.2.0 — add /visualize endpoint",
+    "description": "Commit by Selina Wan in services_wishlist",
+    "files": [
+      "services_wishlist/"
+    ],
+    "sha": "09f5afa",
+    "repo": "services_wishlist",
+    "author": "Selina Wan"
+  },
+  {
+    "timestamp": "2026-02-16 03:57",
+    "type": "feature",
+    "title": "feat: add /visualize endpoint with supervision bbox+mask+label overlay",
+    "description": "Commit by qifei-c in grounded-sam2-service",
+    "files": [
+      "grounded-sam2-service/"
+    ],
+    "sha": "bf60c0c",
+    "repo": "grounded-sam2-service",
+    "author": "qifei-c"
+  },
+  {
+    "timestamp": "2026-02-16 06:46",
+    "type": "feature",
+    "title": "Add RealSense SLAM (RTAB-Map) service request",
+    "description": "Commit by Yifei Simon Shao in services_wishlist",
+    "files": [
+      "services_wishlist/"
+    ],
+    "sha": "9dee21a",
+    "repo": "services_wishlist",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-02-16 06:59",
+    "type": "feature",
+    "title": "Mark realsense-slam as building",
+    "description": "Commit by Selina Wan in services_wishlist",
+    "files": [
+      "services_wishlist/"
+    ],
+    "sha": "c504cab",
+    "repo": "services_wishlist",
+    "author": "Selina Wan"
+  },
+  {
+    "timestamp": "2026-02-16 07:01",
+    "type": "feature",
+    "title": "Add .gitignore, remove pycache",
+    "description": "Commit by qifei-c in realsense-slam",
+    "files": [
+      "realsense-slam/"
+    ],
+    "sha": "6324437",
+    "repo": "realsense-slam",
+    "author": "qifei-c"
+  },
+  {
+    "timestamp": "2026-02-16 07:01",
+    "type": "setup",
+    "title": "Initial: RealSense SLAM service with Open3D ICP + OpenCV",
+    "description": "Commit by qifei-c in realsense-slam",
+    "files": [
+      "realsense-slam/"
+    ],
+    "sha": "39bee03",
+    "repo": "realsense-slam",
+    "author": "qifei-c"
+  },
+  {
+    "timestamp": "2026-02-16 07:02",
+    "type": "feature",
+    "title": "Add realsense-slam service (done)",
+    "description": "Commit by qifei-c in services_wishlist",
+    "files": [
+      "services_wishlist/"
+    ],
+    "sha": "5a9ceb5",
+    "repo": "services_wishlist",
+    "author": "qifei-c"
+  },
+  {
+    "timestamp": "2026-02-16 07:15",
+    "type": "feature",
+    "title": "Add lightweight RGB-D grasp detection service request",
+    "description": "Commit by Yifei Simon Shao in services_wishlist",
+    "files": [
+      "services_wishlist/"
+    ],
+    "sha": "1bf429b",
+    "repo": "services_wishlist",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-02-16 07:59",
+    "type": "feature",
+    "title": "Mark lightweight-grasp-net and local-obstacle-avoidance as building",
+    "description": "Commit by Selina Wan in services_wishlist",
+    "files": [
+      "services_wishlist/"
+    ],
+    "sha": "faf091c",
+    "repo": "services_wishlist",
+    "author": "Selina Wan"
+  },
+  {
+    "timestamp": "2026-02-16 08:03",
+    "type": "feature",
+    "title": "Mark local-obstacle-avoidance as done",
+    "description": "Commit by Selina Wan in services_wishlist",
+    "files": [
+      "services_wishlist/"
+    ],
+    "sha": "fad44cc",
+    "repo": "services_wishlist",
+    "author": "Selina Wan"
+  },
+  {
+    "timestamp": "2026-02-16 08:03",
+    "type": "feature",
+    "title": "Add local-obstacle-avoidance service",
+    "description": "Commit by Selina Wan in services_wishlist",
+    "files": [
+      "services_wishlist/"
+    ],
+    "sha": "d2c9bd1",
+    "repo": "services_wishlist",
+    "author": "Selina Wan"
+  },
+  {
+    "timestamp": "2026-02-16 08:03",
+    "type": "setup",
+    "title": "Initial: local obstacle avoidance with DWA",
+    "description": "Commit by qifei-c in local-obstacle-avoidance-service",
+    "files": [
+      "local-obstacle-avoidance-service/"
+    ],
+    "sha": "ea0148a",
+    "repo": "local-obstacle-avoidance-service",
+    "author": "qifei-c"
+  },
+  {
+    "timestamp": "2026-02-16 08:03",
+    "type": "setup",
+    "title": "Initial: GR-ConvNet v2 grasp detection service with FastAPI",
+    "description": "Commit by qifei-c in lightweight-grasp-service",
+    "files": [
+      "lightweight-grasp-service/"
+    ],
+    "sha": "1270db8",
+    "repo": "lightweight-grasp-service",
+    "author": "qifei-c"
+  },
+  {
+    "timestamp": "2026-02-16 08:04",
+    "type": "feature",
+    "title": "Mark lightweight-grasp-net as done",
+    "description": "Commit by Selina Wan in services_wishlist",
+    "files": [
+      "services_wishlist/"
+    ],
+    "sha": "0601b89",
+    "repo": "services_wishlist",
+    "author": "Selina Wan"
+  },
+  {
+    "timestamp": "2026-02-16 08:04",
+    "type": "feature",
+    "title": "Add lightweight-grasp-net service",
+    "description": "Commit by Selina Wan in services_wishlist",
+    "files": [
+      "services_wishlist/"
+    ],
+    "sha": "e90bf85",
+    "repo": "services_wishlist",
+    "author": "Selina Wan"
+  },
+  {
+    "timestamp": "2026-02-16 20:26",
+    "type": "docs",
+    "title": "Add banner image to README",
+    "description": "Commit by Yifei Simon Shao in Tidybot-Universe",
+    "files": [
+      "Tidybot-Universe/"
+    ],
+    "sha": "6beb031",
+    "repo": "Tidybot-Universe",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-02-16 20:26",
+    "type": "docs",
+    "title": "Add banner image to org profile README",
+    "description": "Commit by Yifei Simon Shao in .github",
+    "files": [
+      ".github/"
+    ],
+    "sha": "993a32b",
+    "repo": ".github",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-02-16 20:29",
+    "type": "feature",
+    "title": "Crop banner image — remove top 15%",
+    "description": "Commit by Yifei Simon Shao in Tidybot-Universe",
+    "files": [
+      "Tidybot-Universe/"
+    ],
+    "sha": "f2446b1",
+    "repo": "Tidybot-Universe",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-02-16 20:29",
+    "type": "feature",
+    "title": "Crop banner image — remove top 15%",
+    "description": "Commit by Yifei Simon Shao in .github",
+    "files": [
+      ".github/"
+    ],
+    "sha": "f0cd01b",
+    "repo": ".github",
+    "author": "Yifei Simon Shao"
   }
 ]
