@@ -1942,5 +1942,29 @@
     "sha": "d81ca67",
     "repo": "Tidybot-Universe",
     "author": "Tidybot"
+  },
+  {
+    "timestamp": "2026-02-19 00:08",
+    "type": "feature",
+    "title": "Add grounded-sam2 service to catalog",
+    "description": "Commit by Selina Wan in services_wishlist",
+    "files": [
+      "services_wishlist/"
+    ],
+    "sha": "a5e08bb",
+    "repo": "services_wishlist",
+    "author": "Selina Wan"
+  },
+  {
+    "timestamp": "2026-02-19 00:08",
+    "type": "setup",
+    "title": "Initial: Grounded SAM 2 service with FastAPI + client SDK",
+    "description": "Commit by qifei-c in grounded-sam2",
+    "files": [
+      "grounded-sam2/"
+    ],
+    "sha": "2ea223b",
+    "repo": "grounded-sam2",
+    "author": "qifei-c"
   }
 ]
