@@ -285,7 +285,7 @@ function renderWishlistItems() {
 
         return `<div class="wishlist-item">
             <div class="wishlist-vote-col">
-                <button class="wishlist-vote-btn ${votedClass}" data-id="${escapeHTML(item.id)}" ${disabledAttr} ${tooltip}>
+                <button class="wishlist-vote-btn ${hasVoted ? 'voted' : ''}" data-id="${escapeHTML(item.id)}" ${disabledAttr} ${tooltip}>
                     <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 4l-8 14h16z"/></svg>
                 </button>
                 <span class="wishlist-vote-count">${voteCount}</span>
