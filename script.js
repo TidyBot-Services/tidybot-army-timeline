@@ -1049,15 +1049,15 @@ function renderSkillTree(entries) {
         nodesHTML += `<div class="tree-layer-label" style="top:${y}px;">${label}</div>`;
     });
 
-    // SDK module badge config
+    // SDK module badge config — one color per module
     const sdkBadgeConfig = {
-        arm:     { letter: 'A', cls: 'sdk-hw' },
-        base:    { letter: 'B', cls: 'sdk-hw' },
-        gripper: { letter: 'G', cls: 'sdk-hw' },
-        sensors: { letter: 'S', cls: 'sdk-hw' },
-        yolo:    { letter: 'Y', cls: 'sdk-sw' },
-        display: { letter: 'D', cls: 'sdk-infra' },
-        rewind:  { letter: 'R', cls: 'sdk-infra' }
+        arm:     { letter: 'A', cls: 'sdk-arm' },
+        base:    { letter: 'B', cls: 'sdk-base' },
+        gripper: { letter: 'G', cls: 'sdk-gripper' },
+        sensors: { letter: 'S', cls: 'sdk-sensors' },
+        yolo:    { letter: 'Y', cls: 'sdk-yolo' },
+        display: { letter: 'D', cls: 'sdk-display' },
+        rewind:  { letter: 'R', cls: 'sdk-rewind' }
     };
 
     // Render hex cards

@@ -1880,22 +1880,46 @@ button.gallery-wishlist {
     line-height: 1;
 }
 
-.sdk-badge.sdk-hw {
+.sdk-badge.sdk-arm {
     color: #fff;
     background: rgba(255, 107, 0, 0.35);
     border: 1px solid rgba(255, 107, 0, 0.6);
 }
 
-.sdk-badge.sdk-sw {
+.sdk-badge.sdk-base {
+    color: #fff;
+    background: rgba(0, 212, 255, 0.3);
+    border: 1px solid rgba(0, 212, 255, 0.6);
+}
+
+.sdk-badge.sdk-gripper {
+    color: #fff;
+    background: rgba(255, 51, 102, 0.35);
+    border: 1px solid rgba(255, 51, 102, 0.6);
+}
+
+.sdk-badge.sdk-sensors {
+    color: #fff;
+    background: rgba(255, 215, 0, 0.3);
+    border: 1px solid rgba(255, 215, 0, 0.6);
+}
+
+.sdk-badge.sdk-yolo {
     color: #fff;
     background: rgba(57, 255, 20, 0.25);
     border: 1px solid rgba(57, 255, 20, 0.5);
 }
 
-.sdk-badge.sdk-infra {
+.sdk-badge.sdk-display {
     color: #fff;
     background: rgba(157, 78, 221, 0.35);
     border: 1px solid rgba(157, 78, 221, 0.6);
+}
+
+.sdk-badge.sdk-rewind {
+    color: #fff;
+    background: rgba(255, 140, 0, 0.3);
+    border: 1px solid rgba(255, 140, 0, 0.55);
 }
 
 /* ============================================
