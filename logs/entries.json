@@ -2122,5 +2122,17 @@
     "sha": "ffef5c7",
     "repo": "agent_server",
     "author": "Tidybot"
+  },
+  {
+    "timestamp": "2026-02-21 03:12",
+    "type": "docs",
+    "title": "Add multi-user known issues section to README",
+    "description": "Commit by Tidybot in services_wishlist",
+    "files": [
+      "services_wishlist/"
+    ],
+    "sha": "a81ea4f",
+    "repo": "services_wishlist",
+    "author": "Tidybot"
   }
 ]
