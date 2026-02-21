@@ -1056,12 +1056,15 @@ function renderSkillTree(entries) {
     nodesContainer.innerHTML = nodesHTML;
 
     // Render SVG edges
+    // Hex clip-path vertices: top at 3.75% of height, bottom at 96.25%
+    // Inset endpoints so edges connect at the hex boundary, not the bounding box
+    const hexInset = 0.13;
     let edgePaths = '';
     layout.edges.forEach(edge => {
         const fromX = edge.from.x;
-        const fromY = edge.from.y + edge.from.h / 2; // bottom center of parent
+        const fromY = edge.from.y + edge.from.h * (0.5 - hexInset); // bottom vertex of parent hex
         const toX = edge.to.x;
-        const toY = edge.to.y - edge.to.h / 2; // top center of child
+        const toY = edge.to.y - edge.to.h * (0.5 - hexInset); // top vertex of child hex
         const midY = (fromY + toY) / 2;
 
         edgePaths += `<path class="tree-edge-path" data-from="${edge.from.entry.title}" data-to="${edge.to.entry.title}"
@@ -1205,6 +1208,14 @@ document.addEventListener('DOMContentLoaded', async () => {
                 if (galleryViewport) galleryViewport.style.display = '';
                 if (galleryNav) galleryNav.style.display = '';
                 if (treeViewport) treeViewport.style.display = 'none';
+                // Recalculate scrollMax now that viewport is visible
+                const g = galleries.skills;
+                if (g) {
+                    const trackW = g.track.offsetWidth;
+                    g.scrollMax = Math.max(0, trackW - g.viewport.offsetWidth);
+                    g.scrollTarget = Math.min(g.scrollTarget, g.scrollMax);
+                    g.scrollPos = Math.min(g.scrollPos, g.scrollMax);
+                }
             }
         });
 
