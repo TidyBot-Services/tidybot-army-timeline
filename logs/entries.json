@@ -2146,5 +2146,29 @@
     "sha": "f37532c",
     "repo": "Tidybot-Universe",
     "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-02-22 18:29",
+    "type": "fix",
+    "title": "Fix get_mocap_pose() returning None on first call (ZMQ slow-joiner race)",
+    "description": "Commit by Tidybot in agent_server",
+    "files": [
+      "agent_server/"
+    ],
+    "sha": "a3d9593",
+    "repo": "agent_server",
+    "author": "Tidybot"
+  },
+  {
+    "timestamp": "2026-02-22 18:31",
+    "type": "feature",
+    "title": "Add gitignore for runtime artifacts, mark SafetyEnvelope as deprecated",
+    "description": "Commit by Tidybot in agent_server",
+    "files": [
+      "agent_server/"
+    ],
+    "sha": "6f64d2c",
+    "repo": "agent_server",
+    "author": "Tidybot"
   }
 ]
