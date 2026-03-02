@@ -1,29 +1,5 @@
 [
   {
-    "timestamp": "2026-02-10 03:59",
-    "type": "feature",
-    "title": "Add .gitignore and remove tracked __pycache__ files",
-    "description": "Commit by Tidybot in base_tidybot_service",
-    "files": [
-      "base_tidybot_service/"
-    ],
-    "sha": "5873e7e",
-    "repo": "base_tidybot_service",
-    "author": "Tidybot"
-  },
-  {
-    "timestamp": "2026-02-10 17:48",
-    "type": "feature",
-    "title": "Rebrand to Tidybot Universe ecosystem",
-    "description": "Commit by Tidybot in Tidybot-Universe",
-    "files": [
-      "Tidybot-Universe/"
-    ],
-    "sha": "00fb3bd",
-    "repo": "Tidybot-Universe",
-    "author": "Tidybot"
-  },
-  {
     "timestamp": "2026-02-10 17:48",
     "type": "feature",
     "title": "Add org profile for Tidybot Universe services ecosystem",
@@ -2397,6 +2373,30 @@
     ],
     "sha": "52a4e13",
     "repo": "sim",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-03-02 15:10",
+    "type": "fix",
+    "title": "Fix broken link: replace non-existent arm-sweep with pick-and-place",
+    "description": "Commit by Yifei Simon Shao in agent_server",
+    "files": [
+      "agent_server/"
+    ],
+    "sha": "f05fae6",
+    "repo": "agent_server",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-03-02 15:22",
+    "type": "feature",
+    "title": "Merge pull request #2 from TidyBot-Services/fix/audit-2026-03-02-remove-arm-swee",
+    "description": "Commit by Yifei Simon Shao in agent_server",
+    "files": [
+      "agent_server/"
+    ],
+    "sha": "2c999a6",
+    "repo": "agent_server",
     "author": "Yifei Simon Shao"
   }
 ]
