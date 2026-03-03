@@ -1,29 +1,5 @@
 [
   {
-    "timestamp": "2026-02-10 17:48",
-    "type": "feature",
-    "title": "Add org profile for Tidybot Universe services ecosystem",
-    "description": "Commit by Tidybot in .github",
-    "files": [
-      ".github/"
-    ],
-    "sha": "d0bf342",
-    "repo": ".github",
-    "author": "Tidybot"
-  },
-  {
-    "timestamp": "2026-02-10 18:45",
-    "type": "fix",
-    "title": "fix typo",
-    "description": "Commit by tonylitianyu in Tidybot-Universe",
-    "files": [
-      "Tidybot-Universe/"
-    ],
-    "sha": "b1a7e82",
-    "repo": "Tidybot-Universe",
-    "author": "tonylitianyu"
-  },
-  {
     "timestamp": "2026-02-10 18:46",
     "type": "feature",
     "title": "Merge branch 'master' of https://github.com/TidyBot-Services/Tidybot-Universe",
@@ -2396,6 +2372,30 @@
       "agent_server/"
     ],
     "sha": "2c999a6",
+    "repo": "agent_server",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-03-03 15:14",
+    "type": "fix",
+    "title": "fix: README_DETAILED.md lease release behavior was incorrect",
+    "description": "Commit by Yifei Simon Shao in agent_server",
+    "files": [
+      "agent_server/"
+    ],
+    "sha": "e9c0766",
+    "repo": "agent_server",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-03-03 15:37",
+    "type": "feature",
+    "title": "Merge pull request #3 from TidyBot-Services/fix/audit-2026-03-03-lease-docs",
+    "description": "Commit by Yifei Simon Shao in agent_server",
+    "files": [
+      "agent_server/"
+    ],
+    "sha": "9ba88d4",
     "repo": "agent_server",
     "author": "Yifei Simon Shao"
   }
