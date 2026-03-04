@@ -1,17 +1,5 @@
 [
   {
-    "timestamp": "2026-02-10 19:12",
-    "type": "feature",
-    "title": "Add agent server safety section, wishlists, hardware flexibility, services dev w",
-    "description": "Commit by Tidybot in Tidybot-Universe",
-    "files": [
-      "Tidybot-Universe/"
-    ],
-    "sha": "4090d82",
-    "repo": "Tidybot-Universe",
-    "author": "Tidybot"
-  },
-  {
     "timestamp": "2026-02-10 19:13",
     "type": "feature",
     "title": "Expand stack diagram, add safety warning, hardware flexibility, claim workflow",
@@ -2396,6 +2384,18 @@
       "sim/"
     ],
     "sha": "953fc5b",
+    "repo": "sim",
+    "author": "tonylitianyu"
+  },
+  {
+    "timestamp": "2026-03-04 22:00",
+    "type": "fix",
+    "title": "Fix EE frame convention, bridge protocols, and add viewer camera persistence",
+    "description": "Commit by tonylitianyu in sim",
+    "files": [
+      "sim/"
+    ],
+    "sha": "6e1e7ea",
     "repo": "sim",
     "author": "tonylitianyu"
   }
