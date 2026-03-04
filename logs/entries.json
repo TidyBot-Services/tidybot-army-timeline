@@ -1,17 +1,5 @@
 [
   {
-    "timestamp": "2026-02-10 18:46",
-    "type": "feature",
-    "title": "Merge branch 'master' of https://github.com/TidyBot-Services/Tidybot-Universe",
-    "description": "Commit by tonylitianyu in Tidybot-Universe",
-    "files": [
-      "Tidybot-Universe/"
-    ],
-    "sha": "7c971d1",
-    "repo": "Tidybot-Universe",
-    "author": "tonylitianyu"
-  },
-  {
     "timestamp": "2026-02-10 19:12",
     "type": "feature",
     "title": "Add agent server safety section, wishlists, hardware flexibility, services dev w",
@@ -2398,5 +2386,17 @@
     "sha": "9ba88d4",
     "repo": "agent_server",
     "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-03-04 17:38",
+    "type": "feature",
+    "title": "Add depth stream support to camera bridge",
+    "description": "Commit by tonylitianyu in sim",
+    "files": [
+      "sim/"
+    ],
+    "sha": "953fc5b",
+    "repo": "sim",
+    "author": "tonylitianyu"
   }
 ]
