@@ -1229,7 +1229,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     const { agents, nonAgents } = splitAgentServices(services);
 
-    // Skills: repos from tidybot-skills org
+    // Skills: repos from Tidybot-Skills org
     const preparedSkills = prepareEntries(skills);
     initGallery('skills', preparedSkills);
 
