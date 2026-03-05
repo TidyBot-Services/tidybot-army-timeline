@@ -250,5 +250,17 @@
     "stars": 0,
     "is_private": false,
     "default_branch": "master"
+  },
+  {
+    "id": "022",
+    "name": "deploy-agent",
+    "description": "Lightweight service deployment daemon for TidyBot GPU services",
+    "created_at": "2026-03-05T16:22:07Z",
+    "updated_at": "2026-03-05T16:24:12Z",
+    "html_url": "https://github.com/TidyBot-Services/deploy-agent",
+    "language": "Python",
+    "stars": 0,
+    "is_private": false,
+    "default_branch": "master"
   }
 ]
