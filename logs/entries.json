@@ -1,41 +1,5 @@
 [
   {
-    "timestamp": "2026-02-10 19:13",
-    "type": "feature",
-    "title": "Expand stack diagram, add safety warning, hardware flexibility, claim workflow",
-    "description": "Commit by Tidybot in .github",
-    "files": [
-      ".github/"
-    ],
-    "sha": "8e73183",
-    "repo": ".github",
-    "author": "Tidybot"
-  },
-  {
-    "timestamp": "2026-02-10 20:18",
-    "type": "setup",
-    "title": "Reorganize into skill-agent-setup folder with OpenClaw as first option",
-    "description": "Commit by Tidybot in Tidybot-Universe",
-    "files": [
-      "Tidybot-Universe/"
-    ],
-    "sha": "4150187",
-    "repo": "Tidybot-Universe",
-    "author": "Tidybot"
-  },
-  {
-    "timestamp": "2026-02-10 21:04",
-    "type": "feature",
-    "title": "Add display section and validate endpoint to system guide",
-    "description": "Commit by Tidybot in agent_server",
-    "files": [
-      "agent_server/"
-    ],
-    "sha": "bbe3195",
-    "repo": "agent_server",
-    "author": "Tidybot"
-  },
-  {
     "timestamp": "2026-02-10 21:05",
     "type": "fix",
     "title": "Fix outdated org refs and docs link in workspace templates",
@@ -2398,5 +2362,41 @@
     "sha": "6e1e7ea",
     "repo": "sim",
     "author": "tonylitianyu"
+  },
+  {
+    "timestamp": "2026-03-05 16:26",
+    "type": "docs",
+    "title": "docs: update deploy-agent references to point to TidyBot-Services/deploy-agent r",
+    "description": "Commit by Yifei Simon Shao in Tidybot-Universe",
+    "files": [
+      "Tidybot-Universe/"
+    ],
+    "sha": "ba0a87a",
+    "repo": "Tidybot-Universe",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-03-05 16:51",
+    "type": "docs",
+    "title": "docs: add simulator quick start as default entry point, reorder getting started",
+    "description": "Commit by Yifei Simon Shao in Tidybot-Universe",
+    "files": [
+      "Tidybot-Universe/"
+    ],
+    "sha": "bd2213a",
+    "repo": "Tidybot-Universe",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-03-05 17:39",
+    "type": "feature",
+    "title": "Add log directory info to robot-connection and run-robot-task skills",
+    "description": "Commit by Yifei Simon Shao in Tidybot-Universe",
+    "files": [
+      "Tidybot-Universe/"
+    ],
+    "sha": "7e21244",
+    "repo": "Tidybot-Universe",
+    "author": "Yifei Simon Shao"
   }
 ]
