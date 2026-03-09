@@ -1,41 +1,5 @@
 [
   {
-    "timestamp": "2026-02-12 21:46",
-    "type": "feature",
-    "title": "change base height",
-    "description": "Commit by tonylitianyu in Tidybot-Universe",
-    "files": [
-      "Tidybot-Universe/"
-    ],
-    "sha": "bf176dc",
-    "repo": "Tidybot-Universe",
-    "author": "tonylitianyu"
-  },
-  {
-    "timestamp": "2026-02-12 22:02",
-    "type": "feature",
-    "title": "Add raw URLs for catalog.json and wishlist.json in MISSION.md",
-    "description": "Commit by Yifei Simon Shao in Tidybot-Universe",
-    "files": [
-      "Tidybot-Universe/"
-    ],
-    "sha": "225cee2",
-    "repo": "Tidybot-Universe",
-    "author": "Yifei Simon Shao"
-  },
-  {
-    "timestamp": "2026-02-12 22:36",
-    "type": "feature",
-    "title": "Clarify agent vs skill code boundary in MISSION.md",
-    "description": "Commit by Yifei Simon Shao in Tidybot-Universe",
-    "files": [
-      "Tidybot-Universe/"
-    ],
-    "sha": "06703b6",
-    "repo": "Tidybot-Universe",
-    "author": "Yifei Simon Shao"
-  },
-  {
     "timestamp": "2026-02-12 23:34",
     "type": "feature",
     "title": "Add Monitoring During Execution section to system guide",
@@ -2397,6 +2361,42 @@
     ],
     "sha": "1f3ab4e",
     "repo": "Tidybot-Universe",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-03-09 16:02",
+    "type": "feature",
+    "title": "feat: add sim soft/hard reset API via HTTP bridge",
+    "description": "Commit by Yifei Simon Shao in sim",
+    "files": [
+      "sim/"
+    ],
+    "sha": "63feb66",
+    "repo": "sim",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-03-09 16:38",
+    "type": "deploy",
+    "title": "feat: auto-reset sim scene on lease release",
+    "description": "Commit by Yifei Simon Shao in agent_server",
+    "files": [
+      "agent_server/"
+    ],
+    "sha": "838c9e8",
+    "repo": "agent_server",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-03-09 16:53",
+    "type": "fix",
+    "title": "fix: zero all velocities/forces on soft reset",
+    "description": "Commit by Yifei Simon Shao in sim",
+    "files": [
+      "sim/"
+    ],
+    "sha": "d0d6ad1",
+    "repo": "sim",
     "author": "Yifei Simon Shao"
   }
 ]
