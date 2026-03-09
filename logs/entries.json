@@ -2,18 +2,6 @@
   {
     "timestamp": "2026-02-12 23:34",
     "type": "feature",
-    "title": "Add Monitoring During Execution section to system guide",
-    "description": "Commit by Yifei Simon Shao in agent_server",
-    "files": [
-      "agent_server/"
-    ],
-    "sha": "1a1b0eb",
-    "repo": "agent_server",
-    "author": "Yifei Simon Shao"
-  },
-  {
-    "timestamp": "2026-02-12 23:34",
-    "type": "feature",
     "title": "Add execution monitoring guidance to MISSION.md step 4",
     "description": "Commit by Yifei Simon Shao in Tidybot-Universe",
     "files": [
@@ -2397,6 +2385,18 @@
     ],
     "sha": "d0d6ad1",
     "repo": "sim",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-03-09 19:30",
+    "type": "feature",
+    "title": "relax arm convergence tolerances for sim compatibility",
+    "description": "Commit by Yifei Simon Shao in agent_server",
+    "files": [
+      "agent_server/"
+    ],
+    "sha": "69de82f",
+    "repo": "agent_server",
     "author": "Yifei Simon Shao"
   }
 ]
