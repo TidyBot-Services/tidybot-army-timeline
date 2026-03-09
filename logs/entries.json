@@ -1,137 +1,5 @@
 [
   {
-    "timestamp": "2026-02-10 21:05",
-    "type": "fix",
-    "title": "Fix outdated org refs and docs link in workspace templates",
-    "description": "Commit by Tidybot in Tidybot-Universe",
-    "files": [
-      "Tidybot-Universe/"
-    ],
-    "sha": "465d01f",
-    "repo": "Tidybot-Universe",
-    "author": "Tidybot"
-  },
-  {
-    "timestamp": "2026-02-10 21:13",
-    "type": "feature",
-    "title": "Add port table and face/camera links to service dashboard",
-    "description": "Commit by Tidybot in agent_server",
-    "files": [
-      "agent_server/"
-    ],
-    "sha": "f9e2a36",
-    "repo": "agent_server",
-    "author": "Tidybot"
-  },
-  {
-    "timestamp": "2026-02-11 15:32",
-    "type": "fix",
-    "title": "Fix dashboard camera button to point to camera dashboard on port 5581",
-    "description": "Commit by Tidybot in agent_server",
-    "files": [
-      "agent_server/"
-    ],
-    "sha": "d81e0ce",
-    "repo": "agent_server",
-    "author": "Tidybot"
-  },
-  {
-    "timestamp": "2026-02-11 15:32",
-    "type": "feature",
-    "title": "Default camera dashboard server host to wireless IP (10.102.253.246)",
-    "description": "Commit by Tidybot in camera_realsense_service",
-    "files": [
-      "camera_realsense_service/"
-    ],
-    "sha": "d33720c",
-    "repo": "camera_realsense_service",
-    "author": "Tidybot"
-  },
-  {
-    "timestamp": "2026-02-11 20:48",
-    "type": "docs",
-    "title": "Rewrite README for humans",
-    "description": "Commit by Claude in agent_server",
-    "files": [
-      "agent_server/"
-    ],
-    "sha": "5ccf1dc",
-    "repo": "agent_server",
-    "author": "Claude"
-  },
-  {
-    "timestamp": "2026-02-11 22:14",
-    "type": "docs",
-    "title": "Split README into human overview and agent guide",
-    "description": "Commit by Claude in agent_server",
-    "files": [
-      "agent_server/"
-    ],
-    "sha": "5e3e842",
-    "repo": "agent_server",
-    "author": "Claude"
-  },
-  {
-    "timestamp": "2026-02-11 22:17",
-    "type": "docs",
-    "title": "Rename AGENT_GUIDE.md to README_DETAILED.md",
-    "description": "Commit by Claude in agent_server",
-    "files": [
-      "agent_server/"
-    ],
-    "sha": "f615cc9",
-    "repo": "agent_server",
-    "author": "Claude"
-  },
-  {
-    "timestamp": "2026-02-11 22:18",
-    "type": "feature",
-    "title": "Update TidyBot Universe link to new landing page URL",
-    "description": "Commit by Claude in agent_server",
-    "files": [
-      "agent_server/"
-    ],
-    "sha": "21ee6f7",
-    "repo": "agent_server",
-    "author": "Claude"
-  },
-  {
-    "timestamp": "2026-02-11 22:19",
-    "type": "docs",
-    "title": "Merge pull request #1 from TidyBot-Services/claude/improve-readme-0S0dU",
-    "description": "Commit by Yifei Simon Shao in agent_server",
-    "files": [
-      "agent_server/"
-    ],
-    "sha": "13ababf",
-    "repo": "agent_server",
-    "author": "Yifei Simon Shao"
-  },
-  {
-    "timestamp": "2026-02-12 16:03",
-    "type": "feature",
-    "title": "Remove duplicate OpenClaw template files, keep only Tidybot customizations",
-    "description": "Commit by Yifei Simon Shao in Tidybot-Universe",
-    "files": [
-      "Tidybot-Universe/"
-    ],
-    "sha": "8165d31",
-    "repo": "Tidybot-Universe",
-    "author": "Yifei Simon Shao"
-  },
-  {
-    "timestamp": "2026-02-12 16:04",
-    "type": "setup",
-    "title": "Add service-agent-setup with Claude Code as the recommended platform",
-    "description": "Commit by Yifei Simon Shao in Tidybot-Universe",
-    "files": [
-      "Tidybot-Universe/"
-    ],
-    "sha": "0404c74",
-    "repo": "Tidybot-Universe",
-    "author": "Yifei Simon Shao"
-  },
-  {
     "timestamp": "2026-02-12 19:15",
     "type": "feature",
     "title": "Restructure workspace: replace SOUL.md with MISSION.md for organic skill flow",
@@ -2397,6 +2265,138 @@
     ],
     "sha": "7e21244",
     "repo": "Tidybot-Universe",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-03-08 04:40",
+    "type": "fix",
+    "title": "Fix sim convergence and camera rendering issues",
+    "description": "Commit by tonylitianyu in sim",
+    "files": [
+      "sim/"
+    ],
+    "sha": "e75b87e",
+    "repo": "sim",
+    "author": "tonylitianyu"
+  },
+  {
+    "timestamp": "2026-03-08 18:12",
+    "type": "deploy",
+    "title": "feat: add generic HTTP client to robot_sdk, update docs for deploy-agent archite",
+    "description": "Commit by Yifei Simon Shao in agent_server",
+    "files": [
+      "agent_server/"
+    ],
+    "sha": "43fbc06",
+    "repo": "agent_server",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-03-08 18:12",
+    "type": "docs",
+    "title": "docs: update README for local deploy-agent workflow",
+    "description": "Commit by Yifei Simon Shao in services_wishlist",
+    "files": [
+      "services_wishlist/"
+    ],
+    "sha": "f074270",
+    "repo": "services_wishlist",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-03-08 18:12",
+    "type": "docs",
+    "title": "docs: update README for local deploy-agent workflow",
+    "description": "Commit by Yifei Simon Shao in yolo-service",
+    "files": [
+      "yolo-service/"
+    ],
+    "sha": "c21af7b",
+    "repo": "yolo-service",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-03-08 18:12",
+    "type": "docs",
+    "title": "docs: update README for local deploy-agent workflow",
+    "description": "Commit by Yifei Simon Shao in grounded-sam2-service",
+    "files": [
+      "grounded-sam2-service/"
+    ],
+    "sha": "ff073e5",
+    "repo": "grounded-sam2-service",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-03-08 18:12",
+    "type": "docs",
+    "title": "docs: update README for local deploy-agent workflow",
+    "description": "Commit by Yifei Simon Shao in graspgen-service",
+    "files": [
+      "graspgen-service/"
+    ],
+    "sha": "3ef66c5",
+    "repo": "graspgen-service",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-03-08 18:12",
+    "type": "docs",
+    "title": "docs: update README for local deploy-agent workflow",
+    "description": "Commit by Yifei Simon Shao in foundation-stereo-service",
+    "files": [
+      "foundation-stereo-service/"
+    ],
+    "sha": "f33a379",
+    "repo": "foundation-stereo-service",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-03-08 18:12",
+    "type": "docs",
+    "title": "docs: update README for local deploy-agent workflow",
+    "description": "Commit by Yifei Simon Shao in nav-mapping-service",
+    "files": [
+      "nav-mapping-service/"
+    ],
+    "sha": "8b0d92e",
+    "repo": "nav-mapping-service",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-03-08 18:12",
+    "type": "fix",
+    "title": "fix: gripper bridge msgpack protocol, camera bridge debug logging",
+    "description": "Commit by Yifei Simon Shao in sim",
+    "files": [
+      "sim/"
+    ],
+    "sha": "a761161",
+    "repo": "sim",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-03-08 18:12",
+    "type": "docs",
+    "title": "docs: update CLAUDE.md for deploy-agent architecture, remove sync_catalog refere",
+    "description": "Commit by Yifei Simon Shao in common",
+    "files": [
+      "common/"
+    ],
+    "sha": "71de4d9",
+    "repo": "common",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-03-08 18:12",
+    "type": "docs",
+    "title": "docs: add README with API reference and architecture overview",
+    "description": "Commit by Yifei Simon Shao in deploy-agent",
+    "files": [
+      "deploy-agent/"
+    ],
+    "sha": "6bc4af9",
+    "repo": "deploy-agent",
     "author": "Yifei Simon Shao"
   }
 ]
