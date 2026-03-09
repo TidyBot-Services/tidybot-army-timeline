@@ -1,17 +1,5 @@
 [
   {
-    "timestamp": "2026-02-12 19:15",
-    "type": "feature",
-    "title": "Restructure workspace: replace SOUL.md with MISSION.md for organic skill flow",
-    "description": "Commit by Yifei Simon Shao in Tidybot-Universe",
-    "files": [
-      "Tidybot-Universe/"
-    ],
-    "sha": "8d18adc",
-    "repo": "Tidybot-Universe",
-    "author": "Yifei Simon Shao"
-  },
-  {
     "timestamp": "2026-02-12 21:46",
     "type": "feature",
     "title": "change base height",
@@ -2397,6 +2385,18 @@
     ],
     "sha": "6bc4af9",
     "repo": "deploy-agent",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-03-09 03:32",
+    "type": "fix",
+    "title": "Update skill-agent templates: add sim env vars, CLI example, debug tip",
+    "description": "Commit by Yifei Simon Shao in Tidybot-Universe",
+    "files": [
+      "Tidybot-Universe/"
+    ],
+    "sha": "1f3ab4e",
+    "repo": "Tidybot-Universe",
     "author": "Yifei Simon Shao"
   }
 ]
