@@ -26,7 +26,7 @@ jobs:
         env:
           ORG_NAME: tidybot-skills
         with:
-          github-token: ${{ secrets.PAT_TOKEN_FRONTEND }}
+          github-token: ${{ secrets.PAT_TOKEN }}
           script: |
             const fs = require('fs');
             const org = process.env.ORG_NAME;
@@ -166,7 +166,7 @@ jobs:
       - name: Commit and push if changed
         id: commit-skills
         env:
-          PAT_TOKEN: ${{ secrets.PAT_TOKEN_FRONTEND }}
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
