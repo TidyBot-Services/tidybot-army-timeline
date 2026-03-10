@@ -1,18 +1,6 @@
 [
   {
     "timestamp": "2026-02-14 00:32",
-    "type": "feature",
-    "title": "Add I/O lock for thread-safe Modbus register access",
-    "description": "Commit by Tidybot in gripper_robotiq_service",
-    "files": [
-      "gripper_robotiq_service/"
-    ],
-    "sha": "03776f9",
-    "repo": "gripper_robotiq_service",
-    "author": "Tidybot"
-  },
-  {
-    "timestamp": "2026-02-14 00:32",
     "type": "fix",
     "title": "Fix WebSocket concurrent send race, add wrist cam with 180° rotation",
     "description": "Commit by Tidybot in camera_realsense_service",
@@ -2397,6 +2385,18 @@
     ],
     "sha": "f612b1e",
     "repo": "services_wishlist",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-03-10 05:31",
+    "type": "docs",
+    "title": "Replace README with philosophy doc, move setup guide to GETTING_STARTED.md",
+    "description": "Commit by Yifei Simon Shao in Tidybot-Universe",
+    "files": [
+      "Tidybot-Universe/"
+    ],
+    "sha": "0c49544",
+    "repo": "Tidybot-Universe",
     "author": "Yifei Simon Shao"
   }
 ]
