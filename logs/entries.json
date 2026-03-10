@@ -1,125 +1,5 @@
 [
   {
-    "timestamp": "2026-02-12 23:34",
-    "type": "feature",
-    "title": "Add execution monitoring guidance to MISSION.md step 4",
-    "description": "Commit by Yifei Simon Shao in Tidybot-Universe",
-    "files": [
-      "Tidybot-Universe/"
-    ],
-    "sha": "57fc24b",
-    "repo": "Tidybot-Universe",
-    "author": "Yifei Simon Shao"
-  },
-  {
-    "timestamp": "2026-02-13 02:03",
-    "type": "feature",
-    "title": "Add incremental output polling to /code/status endpoint",
-    "description": "Commit by Tidybot in agent_server",
-    "files": [
-      "agent_server/"
-    ],
-    "sha": "d380b85",
-    "repo": "agent_server",
-    "author": "Tidybot"
-  },
-  {
-    "timestamp": "2026-02-13 03:14",
-    "type": "fix",
-    "title": "Fix monitoring section to reference /code/status instead of /code/result",
-    "description": "Commit by Tidybot in agent_server",
-    "files": [
-      "agent_server/"
-    ],
-    "sha": "357cb84",
-    "repo": "agent_server",
-    "author": "Tidybot"
-  },
-  {
-    "timestamp": "2026-02-13 03:52",
-    "type": "feature",
-    "title": "Return max_duration_s and idle_timeout_s in lease grant responses",
-    "description": "Commit by Tidybot in agent_server",
-    "files": [
-      "agent_server/"
-    ],
-    "sha": "4e8dfb0",
-    "repo": "agent_server",
-    "author": "Tidybot"
-  },
-  {
-    "timestamp": "2026-02-13 03:55",
-    "type": "feature",
-    "title": "Include error and stop_reason in /code/status response",
-    "description": "Commit by Tidybot in agent_server",
-    "files": [
-      "agent_server/"
-    ],
-    "sha": "f245f7f",
-    "repo": "agent_server",
-    "author": "Tidybot"
-  },
-  {
-    "timestamp": "2026-02-13 16:29",
-    "type": "feature",
-    "title": "Enforce SDK guide reading and existing skill reuse before writing new code",
-    "description": "Commit by Yifei Simon Shao in Tidybot-Universe",
-    "files": [
-      "Tidybot-Universe/"
-    ],
-    "sha": "d50a22c",
-    "repo": "Tidybot-Universe",
-    "author": "Yifei Simon Shao"
-  },
-  {
-    "timestamp": "2026-02-14 00:06",
-    "type": "setup",
-    "title": "Initial commit",
-    "description": "Commit by qifei-c in yolo-service",
-    "files": [
-      "yolo-service/"
-    ],
-    "sha": "d77e32c",
-    "repo": "yolo-service",
-    "author": "qifei-c"
-  },
-  {
-    "timestamp": "2026-02-14 00:07",
-    "type": "feature",
-    "title": "Add basic FastAPI YOLO implementation",
-    "description": "Commit by qifei-c in yolo-service",
-    "files": [
-      "yolo-service/"
-    ],
-    "sha": "77af124",
-    "repo": "yolo-service",
-    "author": "qifei-c"
-  },
-  {
-    "timestamp": "2026-02-14 00:28",
-    "type": "feature",
-    "title": "Increase face visualization size from 280px to 420px",
-    "description": "Commit by Tidybot in agent_server",
-    "files": [
-      "agent_server/"
-    ],
-    "sha": "4cc477a",
-    "repo": "agent_server",
-    "author": "Tidybot"
-  },
-  {
-    "timestamp": "2026-02-14 00:30",
-    "type": "feature",
-    "title": "Add auth, mocap, execution recording, arm error handling, YOLO masks",
-    "description": "Commit by Tidybot in agent_server",
-    "files": [
-      "agent_server/"
-    ],
-    "sha": "f1b15f8",
-    "repo": "agent_server",
-    "author": "Tidybot"
-  },
-  {
     "timestamp": "2026-02-14 00:32",
     "type": "feature",
     "title": "Add I/O lock for thread-safe Modbus register access",
@@ -2352,6 +2232,18 @@
     "author": "Yifei Simon Shao"
   },
   {
+    "timestamp": "2026-03-09 14:50",
+    "type": "fix",
+    "title": "fix: update grounded-sam2 catalog links to point to grounded-sam2-service",
+    "description": "Commit by Yifei Simon Shao in services_wishlist",
+    "files": [
+      "services_wishlist/"
+    ],
+    "sha": "14fef36",
+    "repo": "services_wishlist",
+    "author": "Yifei Simon Shao"
+  },
+  {
     "timestamp": "2026-03-09 16:02",
     "type": "feature",
     "title": "feat: add sim soft/hard reset API via HTTP bridge",
@@ -2397,6 +2289,114 @@
     ],
     "sha": "69de82f",
     "repo": "agent_server",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-03-10 03:52",
+    "type": "feature",
+    "title": "Add tidybot-sim-manager skill for MuJoCo sim lifecycle management",
+    "description": "Commit by Yifei Simon Shao in Tidybot-Universe",
+    "files": [
+      "Tidybot-Universe/"
+    ],
+    "sha": "37fc89b",
+    "repo": "Tidybot-Universe",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-03-10 03:59",
+    "type": "feature",
+    "title": "Add tidybot-commit-push skill for repo audit and sync workflow",
+    "description": "Commit by Yifei Simon Shao in Tidybot-Universe",
+    "files": [
+      "Tidybot-Universe/"
+    ],
+    "sha": "23f8ee3",
+    "repo": "Tidybot-Universe",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-03-10 04:05",
+    "type": "feature",
+    "title": "Merge pull request #7 from TidyBot-Services/fix/audit-2026-03-07-missing-gripper",
+    "description": "Commit by Yifei Simon Shao in agent_server",
+    "files": [
+      "agent_server/"
+    ],
+    "sha": "27264e7",
+    "repo": "agent_server",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-03-10 04:05",
+    "type": "feature",
+    "title": "Merge pull request #8 from TidyBot-Services/fix/audit-2026-03-08-vtheta-to-wz",
+    "description": "Commit by Yifei Simon Shao in agent_server",
+    "files": [
+      "agent_server/"
+    ],
+    "sha": "1068214",
+    "repo": "agent_server",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-03-10 04:07",
+    "type": "feature",
+    "title": "Merge pull request #5 from TidyBot-Services/fix/audit-2026-03-06-missing-sdk-doc",
+    "description": "Commit by Yifei Simon Shao in agent_server",
+    "files": [
+      "agent_server/"
+    ],
+    "sha": "794702c",
+    "repo": "agent_server",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-03-10 04:07",
+    "type": "feature",
+    "title": "Merge pull request #6 from TidyBot-Services/fix/audit-2026-03-06-project-structu",
+    "description": "Commit by Yifei Simon Shao in agent_server",
+    "files": [
+      "agent_server/"
+    ],
+    "sha": "61d4e9f",
+    "repo": "agent_server",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-03-10 04:08",
+    "type": "feature",
+    "title": "Merge pull request #4 from TidyBot-Services/fix/audit-2026-03-04-org-name-casing",
+    "description": "Commit by Yifei Simon Shao in agent_server",
+    "files": [
+      "agent_server/"
+    ],
+    "sha": "a002ffc",
+    "repo": "agent_server",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-03-10 04:16",
+    "type": "fix",
+    "title": "Fix GitHub org name casing: tidybot-skills → Tidybot-Skills (#2)",
+    "description": "Commit by Yifei Simon Shao in Tidybot-Universe",
+    "files": [
+      "Tidybot-Universe/"
+    ],
+    "sha": "9b2a37f",
+    "repo": "Tidybot-Universe",
+    "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-03-10 04:23",
+    "type": "feature",
+    "title": "Merge pull request #5 from TidyBot-Services/fix/audit-2026-03-09-catalog-grounde",
+    "description": "Commit by Yifei Simon Shao in services_wishlist",
+    "files": [
+      "services_wishlist/"
+    ],
+    "sha": "f612b1e",
+    "repo": "services_wishlist",
     "author": "Yifei Simon Shao"
   }
 ]
