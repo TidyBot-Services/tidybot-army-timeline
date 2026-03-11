@@ -1,65 +1,5 @@
 [
   {
-    "timestamp": "2026-02-14 00:32",
-    "type": "fix",
-    "title": "Fix WebSocket concurrent send race, add wrist cam with 180° rotation",
-    "description": "Commit by Tidybot in camera_realsense_service",
-    "files": [
-      "camera_realsense_service/"
-    ],
-    "sha": "7e3e69c",
-    "repo": "camera_realsense_service",
-    "author": "Tidybot"
-  },
-  {
-    "timestamp": "2026-02-14 00:32",
-    "type": "feature",
-    "title": "Open gripper before rewind, add go_home, record mocap/odom poses",
-    "description": "Commit by Tidybot in agent_system_logger",
-    "files": [
-      "agent_system_logger/"
-    ],
-    "sha": "191a26e",
-    "repo": "agent_system_logger",
-    "author": "Tidybot"
-  },
-  {
-    "timestamp": "2026-02-14 02:26",
-    "type": "feature",
-    "title": "Full service: GPU inference, health endpoint, client SDK, docs",
-    "description": "Commit by qifei-c in yolo-service",
-    "files": [
-      "yolo-service/"
-    ],
-    "sha": "b15a378",
-    "repo": "yolo-service",
-    "author": "qifei-c"
-  },
-  {
-    "timestamp": "2026-02-14 02:51",
-    "type": "feature",
-    "title": "Publish yolo-detection v0.2.0 to catalog (detection + segmentation)",
-    "description": "Commit by qifei-c in services_wishlist",
-    "files": [
-      "services_wishlist/"
-    ],
-    "sha": "eab2bdb",
-    "repo": "services_wishlist",
-    "author": "qifei-c"
-  },
-  {
-    "timestamp": "2026-02-14 02:51",
-    "type": "feature",
-    "title": "v0.2.0: segmentation masks, updated client SDK, full API docs",
-    "description": "Commit by qifei-c in yolo-service",
-    "files": [
-      "yolo-service/"
-    ],
-    "sha": "e94501a",
-    "repo": "yolo-service",
-    "author": "qifei-c"
-  },
-  {
     "timestamp": "2026-02-14 04:26",
     "type": "fix",
     "title": "Fix stale timeline URLs to point to new landing page",
@@ -2398,5 +2338,65 @@
     "sha": "0c49544",
     "repo": "Tidybot-Universe",
     "author": "Yifei Simon Shao"
+  },
+  {
+    "timestamp": "2026-03-11 01:40",
+    "type": "setup",
+    "title": "Initial commit: Franka arm sim service (ZMQ bridge + client)",
+    "description": "Commit by tonylitianyu in arm_franka_sim_service",
+    "files": [
+      "arm_franka_sim_service/"
+    ],
+    "sha": "a1f8808",
+    "repo": "arm_franka_sim_service",
+    "author": "tonylitianyu"
+  },
+  {
+    "timestamp": "2026-03-11 01:40",
+    "type": "setup",
+    "title": "Initial commit: Robotiq gripper sim service (ZMQ bridge + client)",
+    "description": "Commit by tonylitianyu in gripper_robotiq_sim_service",
+    "files": [
+      "gripper_robotiq_sim_service/"
+    ],
+    "sha": "1360f8a",
+    "repo": "gripper_robotiq_sim_service",
+    "author": "tonylitianyu"
+  },
+  {
+    "timestamp": "2026-03-11 01:40",
+    "type": "setup",
+    "title": "Initial commit: TidyBot base sim service (RPC bridge)",
+    "description": "Commit by tonylitianyu in base_tidybot_sim_service",
+    "files": [
+      "base_tidybot_sim_service/"
+    ],
+    "sha": "e064ad9",
+    "repo": "base_tidybot_sim_service",
+    "author": "tonylitianyu"
+  },
+  {
+    "timestamp": "2026-03-11 01:40",
+    "type": "setup",
+    "title": "Initial commit: RealSense camera sim service (WebSocket bridge + client)",
+    "description": "Commit by tonylitianyu in camera_realsense_sim_service",
+    "files": [
+      "camera_realsense_sim_service/"
+    ],
+    "sha": "c0e1cad",
+    "repo": "camera_realsense_sim_service",
+    "author": "tonylitianyu"
+  },
+  {
+    "timestamp": "2026-03-11 01:44",
+    "type": "refactor",
+    "title": "refactor: extract bridges into separate service repos",
+    "description": "Commit by tonylitianyu in sim",
+    "files": [
+      "sim/"
+    ],
+    "sha": "4674b05",
+    "repo": "sim",
+    "author": "tonylitianyu"
   }
 ]
