@@ -1,29 +1,5 @@
 [
   {
-    "timestamp": "2026-02-14 04:26",
-    "type": "fix",
-    "title": "Fix stale timeline URLs to point to new landing page",
-    "description": "Commit by Yifei Simon Shao in Tidybot-Universe",
-    "files": [
-      "Tidybot-Universe/"
-    ],
-    "sha": "bdc7366",
-    "repo": "Tidybot-Universe",
-    "author": "Yifei Simon Shao"
-  },
-  {
-    "timestamp": "2026-02-14 04:54",
-    "type": "fix",
-    "title": "Fix monitoring tips: use /code/status for live output, add token cost warnings",
-    "description": "Commit by Yifei Simon Shao in agent_server",
-    "files": [
-      "agent_server/"
-    ],
-    "sha": "1a57b90",
-    "repo": "agent_server",
-    "author": "Yifei Simon Shao"
-  },
-  {
     "timestamp": "2026-02-14 04:56",
     "type": "feature",
     "title": "Add token-conscious monitoring guidance to MISSION.md",
@@ -2397,6 +2373,30 @@
     ],
     "sha": "4674b05",
     "repo": "sim",
+    "author": "tonylitianyu"
+  },
+  {
+    "timestamp": "2026-03-11 03:24",
+    "type": "feature",
+    "title": "feat: add joint-space PD control for direct joint position tracking",
+    "description": "Commit by tonylitianyu in sim",
+    "files": [
+      "sim/"
+    ],
+    "sha": "5f98c8e",
+    "repo": "sim",
+    "author": "tonylitianyu"
+  },
+  {
+    "timestamp": "2026-03-11 03:24",
+    "type": "feature",
+    "title": "feat: route joint commands directly to joint PD controller",
+    "description": "Commit by tonylitianyu in arm_franka_sim_service",
+    "files": [
+      "arm_franka_sim_service/"
+    ],
+    "sha": "14b67bb",
+    "repo": "arm_franka_sim_service",
     "author": "tonylitianyu"
   }
 ]
