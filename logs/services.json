@@ -220,7 +220,7 @@
     "name": "sim",
     "description": "TidyBot simulation server",
     "created_at": "2026-02-23T18:49:03Z",
-    "updated_at": "2026-03-09T16:53:45Z",
+    "updated_at": "2026-03-11T03:25:04Z",
     "html_url": "https://github.com/TidyBot-Services/sim",
     "language": "Python",
     "stars": 0,
@@ -262,5 +262,53 @@
     "stars": 0,
     "is_private": false,
     "default_branch": "master"
+  },
+  {
+    "id": "023",
+    "name": "arm_franka_sim_service",
+    "description": "No description",
+    "created_at": "2026-03-11T01:40:59Z",
+    "updated_at": "2026-03-11T03:24:50Z",
+    "html_url": "https://github.com/TidyBot-Services/arm_franka_sim_service",
+    "language": "Python",
+    "stars": 0,
+    "is_private": true,
+    "default_branch": "main"
+  },
+  {
+    "id": "024",
+    "name": "gripper_robotiq_sim_service",
+    "description": "No description",
+    "created_at": "2026-03-11T01:41:17Z",
+    "updated_at": "2026-03-11T01:41:22Z",
+    "html_url": "https://github.com/TidyBot-Services/gripper_robotiq_sim_service",
+    "language": "Python",
+    "stars": 0,
+    "is_private": true,
+    "default_branch": "main"
+  },
+  {
+    "id": "025",
+    "name": "base_tidybot_sim_service",
+    "description": "No description",
+    "created_at": "2026-03-11T01:41:21Z",
+    "updated_at": "2026-03-11T01:41:26Z",
+    "html_url": "https://github.com/TidyBot-Services/base_tidybot_sim_service",
+    "language": "Python",
+    "stars": 0,
+    "is_private": true,
+    "default_branch": "main"
+  },
+  {
+    "id": "026",
+    "name": "camera_realsense_sim_service",
+    "description": "No description",
+    "created_at": "2026-03-11T01:41:24Z",
+    "updated_at": "2026-03-11T01:41:29Z",
+    "html_url": "https://github.com/TidyBot-Services/camera_realsense_sim_service",
+    "language": "Python",
+    "stars": 0,
+    "is_private": true,
+    "default_branch": "main"
   }
 ]
